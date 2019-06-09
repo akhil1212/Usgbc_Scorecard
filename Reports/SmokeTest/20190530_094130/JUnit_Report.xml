@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="222" tests="1" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="1" failures="0" errors="0" time="222" timestamp="2019-05-30 09:41:40" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190530_094130"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190530_094130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="842bc91f4be6662d0cd96fa355eafeed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR" classname="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR" status="PASSED">
+         <system-out><![CDATA[2019-05-30 09:41:40 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR
+
+2019-05-30 09:41:41 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR): Run with 'lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR' was passed
+
+2019-05-30 09:41:42 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-30 09:41:42 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-30 09:41:44 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-30 09:41:44 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-30 09:41:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-30 09:41:45 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-30 09:41:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-30 09:41:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-30 09:41:53 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-30 09:41:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 09:41:56 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-30 09:41:56 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-30 09:41:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 09:41:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-30 09:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-30 09:41:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-30 09:42:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 09:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-30 09:42:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-30 09:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-30 09:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-30 09:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-30 09:42:16 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-30 09:42:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-30 09:42:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:42:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-05-30 09:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-30 09:42:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:42:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 30 May 2019 09:42:37 AM  Clear draft'
+
+2019-05-30 09:42:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file' successfully
+
+2019-05-30 09:42:37 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-30 09:42:37 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-30 09:42:52 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-05-30 09:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-30 09:42:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 30 May 2019 09:42:37 AM  Clear draft'
+
+2019-05-30 09:42:52 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 30 May 2019 09:42:37 AM  Clear draft' and expected text 'Last draft saved on: 30 May 2019 09:42:37 AM  Clear draft' are matched 
+
+2019-05-30 09:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-30 09:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is clicked on
+
+2019-05-30 09:43:05 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2019-05-30 09:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-30 09:43:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 30 May 2019 09:42:57 AM  Clear draft'
+
+2019-05-30 09:43:05 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 30 May 2019 09:42:37 AM  Clear draft' and expected text 'Last draft saved on: 30 May 2019 09:42:57 AM  Clear draft' are not matched 
+
+2019-05-30 09:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-30 09:43:05 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-30 09:43:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-30 09:43:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 30 May 2019 09:43:07 AM  Clear draft'
+
+2019-05-30 09:43:16 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 30 May 2019 09:42:57 AM  Clear draft' and expected text 'Last draft saved on: 30 May 2019 09:43:07 AM  Clear draft' are not matched 
+
+2019-05-30 09:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is present
+
+2019-05-30 09:43:16 - [MESSAGE][PASSED] - Text '67' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 30 May 2019 09:43:27 AM  Clear draft'
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 30 May 2019 09:43:07 AM  Clear draft' and expected text 'Last draft saved on: 30 May 2019 09:43:27 AM  Clear draft' are not matched 
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is present
+
+2019-05-30 09:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-30 09:43:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:43:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-05-30 09:43:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-30 09:43:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 09:43:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-30 09:43:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 09:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-30 09:43:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-30 09:43:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 09:43:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-30 09:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 09:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-30 09:43:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 09:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-30 09:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-30 09:43:49 - [MESSAGE][PASSED] - Text 'Testing for ClearDraft' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-30 09:43:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is present
+
+2019-05-30 09:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is clicked on
+
+2019-05-30 09:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-30 09:44:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 09:44:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-05-30 09:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-30 09:44:05 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-30 09:44:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 09:44:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 30 May 2019 09:44:15 AM  Clear draft'
+
+2019-05-30 09:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/div_Signout' is clicked on
+
+2019-05-30 09:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Sign out' is clicked on
+
+2019-05-30 09:44:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-30 09:44:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-30 09:44:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-30 09:44:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-30 09:44:22 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-30 09:44:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 09:44:25 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-30 09:44:25 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-30 09:44:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 09:44:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-30 09:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-30 09:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-30 09:44:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 09:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-30 09:44:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-30 09:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-30 09:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-30 09:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-30 09:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' is present
+
+2019-05-30 09:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-05-30 09:45:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 30 May 2019 09:44:15 AM  Clear draft'
+
+2019-05-30 09:45:20 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 30 May 2019 09:44:15 AM  Clear draft' and expected text 'Last draft saved on: 30 May 2019 09:44:15 AM  Clear draft' are matched 
+
+2019-05-30 09:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is clicked on
+
+2019-05-30 09:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-30 09:45:21 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-30 09:41:40 - [TEST_SUITE][PASSED] - SmokeTest: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

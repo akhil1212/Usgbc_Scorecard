@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GCP_VerifyUploadedFile_option2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c534eb3b-2a03-4203-aca9-cc08b5a8f80e</testCaseGuid>
+</TestCaseEntity>

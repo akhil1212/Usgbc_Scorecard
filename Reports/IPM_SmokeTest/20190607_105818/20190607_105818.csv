@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IPM_SmokeTest,Chrome 74.0.3729.169,,2019-06-07 10:58:27,2019-06-07 11:00:01,1m - 33.500s,FAILED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft,Chrome 74.0.3729.169,,2019-06-07 10:58:28,2019-06-07 10:58:48,20.128s,FAILED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft),Chrome 74.0.3729.169,,2019-06-07 10:58:29,2019-06-07 10:58:48,19.372s,FAILED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin,Chrome 74.0.3729.169,,2019-06-07 10:58:48,2019-06-07 11:00:00,1m - 11.595s,FAILED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSave_LogoutLogin),Chrome 74.0.3729.169,,2019-06-07 10:58:48,2019-06-07 11:00:00,1m - 11.411s,FAILED

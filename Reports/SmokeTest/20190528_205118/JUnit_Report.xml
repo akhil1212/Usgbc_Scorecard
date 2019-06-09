@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="132" tests="0" failures="1" errors="0">
+   <testsuite name="SmokeTest" tests="0" failures="1" errors="0" time="132" timestamp="2019-05-28 20:51:25" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190528_205118"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190528_205118\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="ca690f0e5270db76b311be25e19efdf2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR" classname="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)
+"/>
+         <system-out><![CDATA[2019-05-28 20:51:25 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)
+
+
+2019-05-28 20:51:26 - [TEST_STEP][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR): runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)
+
+
+2019-05-28 20:51:27 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-28 20:51:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-28 20:51:29 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-28 20:51:29 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-28 20:51:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-28 20:51:29 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-28 20:51:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-28 20:51:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-28 20:51:37 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-28 20:51:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:51:40 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-28 20:51:40 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-28 20:51:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 20:51:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-28 20:51:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-28 20:51:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-28 20:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-28 20:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-28 20:51:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-28 20:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-28 20:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-28 20:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-28 20:51:54 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-28 20:51:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-28 20:52:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-28 20:52:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' located by 'By.xpath: //a[@id='clearDraft']
+' is not present after '2' second(s)
+
+2019-05-28 20:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-28 20:52:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-28 20:52:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 28 May 2019 08:52:15 PM  Clear draft'
+
+2019-05-28 20:52:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file' successfully
+
+2019-05-28 20:52:15 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-28 20:52:15 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-28 20:52:30 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-05-28 20:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-28 20:52:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 28 May 2019 08:52:15 PM  Clear draft'
+
+2019-05-28 20:52:30 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 28 May 2019 08:52:15 PM  Clear draft' and expected text 'Last draft saved on: 28 May 2019 08:52:15 PM  Clear draft' are matched 
+
+2019-05-28 20:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-28 20:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is clicked on
+
+2019-05-28 20:52:42 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2019-05-28 20:52:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-28 20:52:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 28 May 2019 08:52:35 PM  Clear draft'
+
+2019-05-28 20:52:43 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 28 May 2019 08:52:15 PM  Clear draft' and expected text 'Last draft saved on: 28 May 2019 08:52:35 PM  Clear draft' are not matched 
+
+2019-05-28 20:52:43 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-28 20:52:43 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-28 20:52:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-28 20:52:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-28 20:52:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 28 May 2019 08:52:45 PM  Clear draft'
+
+2019-05-28 20:52:53 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 28 May 2019 08:52:35 PM  Clear draft' and expected text 'Last draft saved on: 28 May 2019 08:52:45 PM  Clear draft' are not matched 
+
+2019-05-28 20:52:53 - [MESSAGE][PASSED] - Text '67' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-28 20:53:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-28 20:53:03 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-28 20:53:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 28 May 2019 08:52:55 PM  Clear draft'
+
+2019-05-28 20:53:03 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 28 May 2019 08:52:45 PM  Clear draft' and expected text 'Last draft saved on: 28 May 2019 08:52:55 PM  Clear draft' are not matched 
+
+2019-05-28 20:53:04 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-28 20:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/div_Signout' is clicked on
+
+2019-05-28 20:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Sign out' is clicked on
+
+2019-05-28 20:53:05 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-28 20:53:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-28 20:53:05 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-28 20:53:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-28 20:53:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-28 20:53:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-28 20:53:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-28 20:53:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-28 20:53:10 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-28 20:53:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:53:13 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-28 20:53:13 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-28 20:53:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 20:53:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-28 20:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-28 20:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-28 20:53:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-28 20:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-28 20:53:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-28 20:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-28 20:53:23 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-28 20:53:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-28 20:53:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-28 20:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-28 20:53:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-28 20:53:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-28 20:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-28 20:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-28 20:53:26 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-28 20:53:26 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-28 20:53:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-28 20:53:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' is present
+
+2019-05-28 20:53:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:53:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-28 20:53:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:53:32 - [MESSAGE][PASSED] - Object '' is present
+
+2019-05-28 20:53:32 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 28 May 2019 08:52:55 PM  Clear draft'
+
+2019-05-28 20:53:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:53:34 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 28 May 2019 08:52:55 PM  Clear draft' and expected text 'Last draft saved on: 28 May 2019 08:52:55 PM  Clear draft' are matched 
+
+2019-05-28 20:53:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-28 20:53:36 - [MESSAGE][FAILED] - These following reason:
+ [49]
+
+2019-05-28 20:53:36 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)
+)
+
+2019-05-28 20:53:36 - [MESSAGE][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-05-28 20:51:25 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-28 20:51:25 - [TEST_SUITE][FAILED] - SmokeTest: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-05-28 20:51:25 - [TEST_SUITE][FAILED] - SmokeTest: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [49]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559056878126.run(TempTestSuite1559056878126.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

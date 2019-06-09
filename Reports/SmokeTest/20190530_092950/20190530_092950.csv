@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,Chrome 74.0.3729.169,,2019-05-30 09:29:57,2019-05-30 09:30:47,49.939s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteTableData,Chrome 74.0.3729.169,,2019-05-30 09:29:58,2019-05-30 09:30:46,48.444s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteTableData),Chrome 74.0.3729.169,,2019-05-30 09:29:58,2019-05-30 09:30:46,47.937s,PASSED

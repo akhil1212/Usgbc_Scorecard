@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GCP_SmokeTest,Chrome 74.0.3729.169,,,2019-06-07 13:27:38,2019-06-07 13:46:00,18m - 22.425s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_In-house,Chrome 74.0.3729.169,,,2019-06-07 13:27:38,2019-06-07 13:29:57,2m - 19.166s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_In_house),Chrome 74.0.3729.169,,,2019-06-07 13:27:39,2019-06-07 13:29:57,2m - 18.695s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option1,Chrome 74.0.3729.169,,,2019-06-07 13:29:57,2019-06-07 13:30:33,36.154s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadFile_option1),Chrome 74.0.3729.169,,,2019-06-07 13:29:57,2019-06-07 13:30:33,35.923s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option1,Chrome 74.0.3729.169,,,2019-06-07 13:30:33,2019-06-07 13:33:47,3m - 13.307s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DownloadFiles_option1),Chrome 74.0.3729.169,,,2019-06-07 13:30:34,2019-06-07 13:33:47,3m - 13.140s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option1,Chrome 74.0.3729.169,,,2019-06-07 13:33:47,2019-06-07 13:35:18,1m - 31.592s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option1),Chrome 74.0.3729.169,,,2019-06-07 13:33:47,2019-06-07 13:35:18,1m - 31.370s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService,Chrome 74.0.3729.169,,,2019-06-07 13:35:18,2019-06-07 13:36:54,1m - 35.606s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_CertifiedCleaningService),Chrome 74.0.3729.169,,,2019-06-07 13:35:18,2019-06-07 13:36:54,1m - 35.416s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2,Chrome 74.0.3729.169,,,2019-06-07 13:36:54,2019-06-07 13:38:24,1m - 30.180s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadedFile_option2),Chrome 74.0.3729.169,,,2019-06-07 13:36:54,2019-06-07 13:38:24,1m - 29.988s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option2,Chrome 74.0.3729.169,,,2019-06-07 13:38:24,2019-06-07 13:41:13,2m - 48.907s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DownloadFiles_option2),Chrome 74.0.3729.169,,,2019-06-07 13:38:24,2019-06-07 13:41:13,2m - 48.639s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option2,Chrome 74.0.3729.169,,,2019-06-07 13:41:13,2019-06-07 13:42:13,1m - 0.147s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option2),Chrome 74.0.3729.169,,,2019-06-07 13:41:13,2019-06-07 13:42:13,59.934s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_NegativeCases_option1,Chrome 74.0.3729.169,,,2019-06-07 13:42:13,2019-06-07 13:43:07,53.686s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_NegativeCases_option1),Chrome 74.0.3729.169,,,2019-06-07 13:42:13,2019-06-07 13:43:07,53.447s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_NegativeCases_option2,Chrome 74.0.3729.169,,,2019-06-07 13:43:07,2019-06-07 13:44:33,1m - 26.440s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_NegativeCases_option2),Chrome 74.0.3729.169,,,2019-06-07 13:43:07,2019-06-07 13:44:33,1m - 26.145s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft,Chrome 74.0.3729.169,,,2019-06-07 13:44:33,2019-06-07 13:45:59,1m - 26.146s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_AutoSaveAsDraftGCP),Chrome 74.0.3729.169,,,2019-06-07 13:44:34,2019-06-07 13:45:59,1m - 25.688s,FAILED

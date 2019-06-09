@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IPM_SmokeTest" time="474" tests="4" failures="0" errors="0">
+   <testsuite name="IPM_SmokeTest" tests="4" failures="0" errors="0" time="474" timestamp="2019-06-06 09:59:17" hostname="Promantus Inc - G10PROLT021" id="Test Suites/IPM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190606_095909"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190606_095909\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="9c46cb93d19550211401fdf2a2240511"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_IPM_InHouseProgram" classname="Test Cases/IntegratedPestManagement/TC_IPM_InHouseProgram" status="PASSED">
+         <system-out><![CDATA[2019-06-06 09:59:18 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_IPM_InHouseProgram: Test Cases/IntegratedPestManagement/TC_IPM_InHouseProgram
+
+2019-06-06 09:59:18 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_InHouseProgram): Run with 'integratedPestMgmtForm.Runner_IPM_InHouseProgram' was passed
+
+2019-06-06 09:59:21 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-06 09:59:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 09:59:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-06 09:59:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-06 09:59:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-06 09:59:23 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-06 09:59:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-06 09:59:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-06 09:59:30 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-06 09:59:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 09:59:33 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-06 09:59:33 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-06 09:59:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 09:59:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-06 09:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-06 09:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-06 09:59:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 09:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-06 09:59:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 09:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-06 09:59:47 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-06 09:59:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-06 09:59:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-06 09:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-06 09:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-06 09:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-06 09:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-06 09:59:53 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 09:59:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-06 09:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is present
+
+2019-06-06 09:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-06 09:59:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 09:59:56 - [MESSAGE][PASSED] - Text 'Option 1. In-house IPM program' is present on page 
+
+2019-06-06 09:59:56 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is present
+
+2019-06-06 09:59:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' successfully
+
+2019-06-06 09:59:57 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 09:59:57 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/input_Addfile'
+
+2019-06-06 09:59:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 09:59:59 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 09:59:59 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/input_Addfile'
+
+2019-06-06 10:00:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:01 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/input_Addfile'
+
+2019-06-06 10:00:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is present
+
+2019-06-06 10:00:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' successfully
+
+2019-06-06 10:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:03 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/input_Addfile'
+
+2019-06-06 10:00:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:04 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:04 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/input_Addfile'
+
+2019-06-06 10:00:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:05 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/input_Addfile'
+
+2019-06-06 10:00:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is present
+
+2019-06-06 10:00:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' successfully
+
+2019-06-06 10:00:07 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:07 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/input_Addfile'
+
+2019-06-06 10:00:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:08 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/input_Addfile'
+
+2019-06-06 10:00:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:10 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/input_Addfile'
+
+2019-06-06 10:00:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:11 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/p_Upload_AddDoc_SC' is present
+
+2019-06-06 10:00:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/p_Upload_AddDoc_SC' successfully
+
+2019-06-06 10:00:11 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:11 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/input_Addfile'
+
+2019-06-06 10:00:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:13 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/input_Addfile'
+
+2019-06-06 10:00:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:15 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/btn_AddFile' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 10:00:15 - [MESSAGE][PASSED] - File 'G:\Sabareesh\MyGitRepos\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/input_Addfile'
+
+2019-06-06 10:00:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:00:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' successfully
+
+2019-06-06 10:00:16 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' is present
+
+2019-06-06 10:00:21 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE' is set on object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox'
+
+2019-06-06 10:00:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:00:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE'
+
+2019-06-06 10:00:24 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE' are matched 
+
+2019-06-06 10:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is visible
+
+2019-06-06 10:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-06-06 10:00:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:00:27 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-06 10:00:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-06-06 10:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-06-06 10:00:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 10:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-06-06 10:00:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:00:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 10:00:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' successfully
+
+2019-06-06 10:00:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:00:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 10:00:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' successfully
+
+2019-06-06 10:00:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 10:01:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' successfully
+
+2019-06-06 10:01:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 10:01:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' successfully
+
+2019-06-06 10:01:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE'
+
+2019-06-06 10:01:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 10:01:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_AddFile/p_Upload_AddDoc_SC' successfully
+
+2019-06-06 10:01:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:22 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-06 10:01:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE'
+
+2019-06-06 10:01:22 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. MHMLE' are matched 
+
+2019-06-06 10:01:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:25 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-06 10:01:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-06 10:01:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-06 10:01:27 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_IPM_InHouseProgram' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram" classname="Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram" status="PASSED">
+         <system-out><![CDATA[2019-06-06 10:01:27 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram: Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram
+
+2019-06-06 10:01:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram): Run with 'integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram' was passed
+
+2019-06-06 10:01:28 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-06 10:01:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 10:01:28 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-06 10:01:28 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-06 10:01:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-06 10:01:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-06 10:01:30 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-06 10:01:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-06 10:01:36 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-06 10:01:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:01:38 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-06 10:01:39 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-06 10:01:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:01:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-06 10:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-06 10:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-06 10:01:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-06 10:01:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-06 10:01:53 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-06 10:01:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-06 10:01:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-06 10:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-06 10:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-06 10:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-06 10:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-06 10:01:58 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 10:01:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-06 10:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' successfully
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' is present
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-06 10:02:01 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' successfully
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' is present
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-06 10:02:02 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' successfully
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' is present
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-06 10:02:03 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-06 10:02:04 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-06 10:02:04 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-06 10:02:04 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-06 10:02:04 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-06 10:02:04 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_InHouseProgram" classname="Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_InHouseProgram" status="PASSED">
+         <system-out><![CDATA[2019-06-06 10:02:04 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_InHouseProgram: Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_InHouseProgram
+
+2019-06-06 10:02:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_Download_Files_IPM_InHouseProgram): Run with 'integratedPestMgmtForm.Runner_Download_Files_IPM_InHouseProgram' was passed
+
+2019-06-06 10:02:05 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-06 10:02:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 10:02:05 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-06 10:02:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-06 10:02:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-06 10:02:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-06 10:02:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-06 10:02:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-06 10:02:14 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-06 10:02:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:02:17 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-06 10:02:17 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-06 10:02:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:02:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-06 10:02:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-06 10:02:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-06 10:02:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-06 10:02:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-06 10:02:34 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-06 10:02:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-06 10:02:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-06 10:02:34 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-06 10:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-06 10:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-06 10:02:39 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-06 10:02:39 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 10:02:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-06 10:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-06 10:02:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:02:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' successfully
+
+2019-06-06 10:02:41 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' is present
+
+2019-06-06 10:02:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' successfully
+
+2019-06-06 10:02:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is hovered
+
+2019-06-06 10:02:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:02:44 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-06 10:02:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is hovered
+
+2019-06-06 10:02:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:02:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is hovered
+
+2019-06-06 10:02:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:02:58 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-06 10:03:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is hovered
+
+2019-06-06 10:03:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is hovered
+
+2019-06-06 10:03:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:03:13 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-06 10:03:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' is hovered
+
+2019-06-06 10:03:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:03:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:03:31 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:03:31 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:03:31 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-06 10:03:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:03:34 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:03:34 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:03:34 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-06 10:03:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:03:37 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:03:37 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:03:37 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-06 10:03:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' successfully
+
+2019-06-06 10:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' is present
+
+2019-06-06 10:03:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' successfully
+
+2019-06-06 10:03:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is hovered
+
+2019-06-06 10:03:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:03:40 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-06 10:03:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is hovered
+
+2019-06-06 10:03:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is hovered
+
+2019-06-06 10:03:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:03:55 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-06 10:04:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:04:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:04:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is hovered
+
+2019-06-06 10:04:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is hovered
+
+2019-06-06 10:04:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:04:29 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-06 10:04:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' is hovered
+
+2019-06-06 10:04:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:04:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:04:47 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:04:47 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:04:47 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-06 10:04:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:04:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:04:51 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:04:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-06 10:04:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' successfully
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' is present
+
+2019-06-06 10:04:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' successfully
+
+2019-06-06 10:04:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is hovered
+
+2019-06-06 10:04:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:04:56 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-06 10:05:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is hovered
+
+2019-06-06 10:05:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is hovered
+
+2019-06-06 10:05:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:05:11 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-06 10:05:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is hovered
+
+2019-06-06 10:05:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is hovered
+
+2019-06-06 10:05:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:05:26 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-06 10:05:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 10:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' is hovered
+
+2019-06-06 10:05:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:05:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:05:44 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:05:44 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:05:44 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-06 10:05:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:05:47 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:05:47 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:05:47 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-06 10:05:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:05:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:05:50 - [MESSAGE][PASSED] - ZZ.pdf exist in G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-06 10:05:50 - [MESSAGE][PASSED] - 
+
+2019-06-06 10:05:50 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-06 10:05:50 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_Download_Files_IPM_InHouseProgram' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program" classname="Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program" status="PASSED">
+         <system-out><![CDATA[2019-06-06 10:05:50 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program: Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program
+
+2019-06-06 10:05:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_Delete_Files_IPM_InHouse_Program): Run with 'integratedPestMgmtForm.Runner_Delete_Files_IPM_InHouse_Program' was passed
+
+2019-06-06 10:05:51 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-06 10:05:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 10:05:51 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-06 10:05:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-06 10:05:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-06 10:05:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-06 10:05:53 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-06 10:05:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-06 10:05:59 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-06 10:06:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:01 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-06 10:06:02 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-06 10:06:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 10:06:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-06 10:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-06 10:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-06 10:06:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-06 10:06:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-06 10:06:18 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-06 10:06:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-06 10:06:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-06 10:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-06 10:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-06 10:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-06 10:06:31 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-06 10:06:31 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-06 10:06:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-06 10:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-06 10:06:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' successfully
+
+2019-06-06 10:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' is present
+
+2019-06-06 10:06:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/p_IntegrartedPestMngnt' successfully
+
+2019-06-06 10:06:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:06:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:06:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:06:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_IntegratedPestMngmnt/table_IntegratedPestMgmt' located by 'By.xpath: //*[@id="pestMangePlanDocs_files" or @id="contractDocs_files"]/table
+' is not present after '30' second(s)
+
+2019-06-06 10:06:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' successfully
+
+2019-06-06 10:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' is present
+
+2019-06-06 10:06:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/p_AddFileDocumentation' successfully
+
+2019-06-06 10:06:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:06:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:06:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:06:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:06:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:06:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:06:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_Examples_Documentation/table_ExamplesDocs' located by 'By.xpath: //*[@id="pestControlStrategiesDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-06 10:06:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' successfully
+
+2019-06-06 10:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' is present
+
+2019-06-06 10:06:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/p_Pesticide_AddFile' successfully
+
+2019-06-06 10:06:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:07:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:07:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:07:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:07:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:07:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:07:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 10:07:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 10:07:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-06 10:07:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 10:07:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/AddFile_PestcideAppList/table_PesticideAppList' located by 'By.xpath: //*[@id="pesticideAppList_files" or @id="contractorCertDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-06 10:07:11 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_Delete_Files_IPM_InHouse_Program' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-06 09:59:17 - [TEST_SUITE][PASSED] - IPM_SmokeTest: Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

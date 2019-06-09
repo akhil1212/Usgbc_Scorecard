@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="190.974474">
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verifying form draft is not saved if no change in the form in GCP" time="48.466404">
+<system-out><![CDATA[And User is on the Formv01 of Green Cleaning Policy form....................passed
+And User will not modify any field on the Green Cleaning Policy form........passed
+When User should not see saving of draft even after 10 seconds in Green Cleaning Policy form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verifying form draft is not saved if upload files in the form in GCP" time="25.998231">
+<system-out><![CDATA[Given User should be able to see Upload fle on Green Cleaning Policy form...passed
+When User uploads any file on Green Cleaning Policy form....................passed
+Then User should not see saving of draft even after 10 seconds in GCP.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verification of form data is saved automatically with date and time every 10 seconds when a change in cleaning service narrative" time="11.073145">
+<system-out><![CDATA[Given User should be able to see the cleaning service narrative in Green Cleaning Policy form.passed
+When User modifies the cleaning service narrative data in the Green Cleaning Policy form form and waits for 10 seconds.passed
+Then User can see the draft is saved automatically with date and time for cleaning service narrative in Green Cleaning Policy form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verification of form data is saved automatically with date and time every 10 seconds when a change in Special Circumstances narrative" time="10.985423">
+<system-out><![CDATA[Given User should be able to see the Special Circumstances narrative in Green Cleaning Policy form.passed
+When User modifies the Special Circumstances narrative data in the Green Cleaning Policy form form and waits for 10 seconds.passed
+Then User can see the draft is saved automatically with date and time for Special Circumstances narrative in Green Cleaning Policy form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verifying the form draft warning message is not retained when the form is saved in GCP" time="25.636171">
+<system-out><![CDATA[Given User can see the Draft is saved automatically with date and time in Green Cleaning Policy form.passed
+And User can see the save button in Green Cleaning Policy form..............passed
+When User saves the Green Cleaning Policy form..............................passed
+Then User verifies the form draft warning message is not retained in Green Cleaning Policy form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verification of Clear Draft functionality" time="16.530016">
+<system-out><![CDATA[Given User can see the radio button in Green Cleaning Policy form for Certified cleaning service.passed
+When User clicks on the radio button of Certified cleaning service and waits for 10 seconds.passed
+And User can see the Clear draft in Green Cleaning Policy form..............passed
+And User clicks on Clear draft in Green Cleaning Policy form................passed
+Then User can see the draft is cleared in Green Cleaning Policy form........passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form" name="Verifying draft version is not changed and warning message is displayed with date and time after logout and login" time="52.285084">
+<system-out><![CDATA[Given User can see the narrative in Green Cleaning Policy form..............passed
+When User modifies narrative data in Green Cleaning Policy form.............passed
+And User will logout from the Green Cleaning Policy form....................passed
+Then User logs in again to Green Cleaning Policy form.......................passed
+And User should see the warning message is displayed with date and time at the top of the Green Cleaning Policy form.passed
+And User verifies draft version is not changed after logout and login in Green Cleaning Policy form.passed
+]]></system-out>
+</testcase>
+</testsuite>

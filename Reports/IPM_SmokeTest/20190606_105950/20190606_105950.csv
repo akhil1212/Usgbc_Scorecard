@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IPM_SmokeTest,Chrome 74.0.3729.169,,2019-06-06 10:59:59,2019-06-06 11:15:35,15m - 36.019s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-06 10:59:59,2019-06-06 11:02:18,2m - 19.002s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-06 11:00:00,2019-06-06 11:02:18,2m - 18.356s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-06 11:02:18,2019-06-06 11:02:53,34.710s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-06 11:02:19,2019-06-06 11:02:53,34.385s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-06 11:02:53,2019-06-06 11:06:53,4m - 0.550s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Download_Files_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-06 11:02:53,2019-06-06 11:06:53,4m - 0.363s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program,Chrome 74.0.3729.169,,2019-06-06 11:06:53,2019-06-06 11:08:09,1m - 15.214s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Delete_Files_IPM_InHouse_Program),Chrome 74.0.3729.169,,2019-06-06 11:06:54,2019-06-06 11:08:09,1m - 14.921s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_IPM_CertifiedService,Chrome 74.0.3729.169,,2019-06-06 11:08:09,2019-06-06 11:09:36,1m - 27.207s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_CertifiedService),Chrome 74.0.3729.169,,2019-06-06 11:08:09,2019-06-06 11:09:36,1m - 26.868s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_CertifiedService,Chrome 74.0.3729.169,,2019-06-06 11:09:36,2019-06-06 11:10:15,38.660s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Verify_Files_IPM_CertifiedService),Chrome 74.0.3729.169,,2019-06-06 11:09:36,2019-06-06 11:10:15,38.100s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_CertifiedService,Chrome 74.0.3729.169,,2019-06-06 11:10:15,2019-06-06 11:14:18,4m - 3.167s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Download_Files_IPM_CertifiedService),Chrome 74.0.3729.169,,2019-06-06 11:10:15,2019-06-06 11:14:18,4m - 2.851s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_CertifiedService,Chrome 74.0.3729.169,,2019-06-06 11:14:18,2019-06-06 11:15:34,1m - 15.907s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Delete_Files_IPM_CertifiedService),Chrome 74.0.3729.169,,2019-06-06 11:14:18,2019-06-06 11:15:34,1m - 15.684s,PASSED

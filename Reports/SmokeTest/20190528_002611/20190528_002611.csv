@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,Chrome 74.0.3729.169,,2019-05-28 00:26:18,2019-05-28 00:30:25,4m - 6.580s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm,Chrome 74.0.3729.169,,2019-05-28 00:26:19,2019-05-28 00:27:27,1m - 8.652s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm),Chrome 74.0.3729.169,,2019-05-28 00:26:19,2019-05-28 00:27:27,1m - 8.082s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_VerifyLPR,Chrome 74.0.3729.169,,2019-05-28 00:27:27,2019-05-28 00:28:00,32.404s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_VerifyLPR),Chrome 74.0.3729.169,,2019-05-28 00:27:28,2019-05-28 00:28:00,32.157s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DownloadLPR,Chrome 74.0.3729.169,,2019-05-28 00:28:00,2019-05-28 00:28:00,0.398s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DownloadLPR),Chrome 74.0.3729.169,,2019-05-28 00:28:00,2019-05-28 00:28:00,0.195s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements,Chrome 74.0.3729.169,,2019-05-28 00:28:00,2019-05-28 00:28:46,45.640s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements),Chrome 74.0.3729.169,,2019-05-28 00:28:01,2019-05-28 00:28:46,45.433s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteTableData,Chrome 74.0.3729.169,,2019-05-28 00:28:46,2019-05-28 00:29:18,31.563s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteTableData),Chrome 74.0.3729.169,,2019-05-28 00:28:46,2019-05-28 00:29:18,31.271s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteLPR,Chrome 74.0.3729.169,,2019-05-28 00:29:18,2019-05-28 00:30:24,1m - 6.280s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteLPR),Chrome 74.0.3729.169,,2019-05-28 00:29:18,2019-05-28 00:30:24,1m - 5.961s,PASSED

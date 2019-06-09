@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="133" tests="1" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="1" failures="0" errors="0" time="133" timestamp="2019-05-30 13:48:55" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190530_134848"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190530_134848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="aebd505124fec7a44f7e0e6a462a6a7f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" classname="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" status="PASSED">
+         <system-out><![CDATA[2019-05-30 13:48:55 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm: Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm
+
+2019-05-30 13:48:56 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm): Run with 'lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm' was passed
+
+2019-05-30 13:48:58 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-30 13:48:58 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-30 13:48:58 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-30 13:48:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-30 13:48:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-30 13:48:59 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-30 13:48:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-30 13:49:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-30 13:49:11 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-30 13:49:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:49:13 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-30 13:49:13 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-30 13:49:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 13:49:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-30 13:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-30 13:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-30 13:49:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-30 13:49:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-30 13:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-30 13:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-30 13:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-30 13:49:38 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-30 13:49:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-30 13:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is present
+
+2019-05-30 13:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-30 13:49:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:49:41 - [MESSAGE][PASSED] - Text 'Option 1. Fixture Shielding' is present on page 
+
+2019-05-30 13:49:41 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-30 13:49:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is checked
+
+2019-05-30 13:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is present
+
+2019-05-30 13:49:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-30 13:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:43 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-30 13:49:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:45 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:45 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-30 13:49:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:48 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:48 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-30 13:49:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:49 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is present
+
+2019-05-30 13:49:49 - [MESSAGE][PASSED] - Text '677' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-30 13:49:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 13:49:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-30 13:49:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-30 13:49:52 - [MESSAGE][PASSED] - Actual text '677' and expected text '677' are matched 
+
+2019-05-30 13:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is present
+
+2019-05-30 13:49:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-30 13:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:53 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-30 13:49:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:54 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-30 13:49:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:56 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-30 13:49:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is present
+
+2019-05-30 13:49:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-30 13:49:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:57 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-30 13:49:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:49:59 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:49:59 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-30 13:50:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:50:02 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-30 13:50:02 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-30 13:50:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-30 13:50:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' successfully
+
+2019-05-30 13:50:03 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-30 13:50:07 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-30 13:50:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 13:50:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2'
+
+2019-05-30 13:50:10 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2' are matched 
+
+2019-05-30 13:50:10 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is visible
+
+2019-05-30 13:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-30 13:50:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:50:12 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-05-30 13:50:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-05-30 13:50:12 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-05-30 13:50:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-05-30 13:50:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-30 13:50:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 13:50:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-30 13:50:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:50:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-30 13:50:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-30 13:50:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 13:50:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-30 13:50:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:50:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 13:50:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' successfully
+
+2019-05-30 13:50:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2'
+
+2019-05-30 13:50:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:50:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-30 13:50:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-30 13:51:00 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-05-30 13:51:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-30 13:51:01 - [MESSAGE][PASSED] - Actual text '677' and expected text '677' are matched 
+
+2019-05-30 13:51:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2'
+
+2019-05-30 13:51:01 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. I6NS2' are matched 
+
+2019-05-30 13:51:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:51:06 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-30 13:51:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-30 13:51:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-30 13:51:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-30 13:51:08 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-30 13:48:55 - [TEST_SUITE][PASSED] - SmokeTest: Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

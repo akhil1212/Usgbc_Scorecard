@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="239" tests="5" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="5" failures="0" errors="0" time="239" timestamp="2019-05-27 20:20:11" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190527_202004"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190527_202004\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="9044eb985597ece17e2cd715018475f8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" classname="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" status="PASSED">
+         <system-out><![CDATA[2019-05-27 20:20:12 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm: Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm
+
+2019-05-27 20:20:13 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm): Run with 'lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm' was passed
+
+2019-05-27 20:20:16 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-27 20:20:16 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:20:16 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-27 20:20:17 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:20:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-27 20:20:17 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-27 20:20:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-27 20:20:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-27 20:20:24 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-27 20:20:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:20:27 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-27 20:20:27 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-27 20:20:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:20:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-27 20:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-27 20:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-27 20:20:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-27 20:20:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-27 20:20:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-27 20:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-27 20:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-27 20:20:43 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-27 20:20:43 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:20:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-27 20:20:43 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is present
+
+2019-05-27 20:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-27 20:20:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Text 'Option 1. Fixture Shielding' is present on page 
+
+2019-05-27 20:20:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 20:20:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is clicked on
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is checked
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is present
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-27 20:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:20:47 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-27 20:20:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:20:48 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-27 20:20:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:20:51 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-27 20:20:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is present
+
+2019-05-27 20:20:53 - [MESSAGE][PASSED] - Text '677' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Actual text '677' and expected text '677' are matched 
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is present
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:20:56 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-27 20:20:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:20:57 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-27 20:20:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:21:00 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-27 20:21:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is present
+
+2019-05-27 20:21:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-27 20:21:02 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:21:02 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-27 20:21:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:03 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:21:03 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-27 20:21:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:06 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-27 20:21:06 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-27 20:21:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' successfully
+
+2019-05-27 20:21:07 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-27 20:21:13 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-27 20:21:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:21:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG'
+
+2019-05-27 20:21:16 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG' are matched 
+
+2019-05-27 20:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is visible
+
+2019-05-27 20:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-27 20:21:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:21:18 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-05-27 20:21:20 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-05-27 20:21:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-27 20:21:20 - [MESSAGE][PASSED] - Actual text '677' and expected text '677' are matched 
+
+2019-05-27 20:21:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG'
+
+2019-05-27 20:21:21 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. EP5PG' are matched 
+
+2019-05-27 20:21:21 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements" classname="Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements" status="PASSED">
+         <system-out><![CDATA[2019-05-27 20:21:21 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements: Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements
+
+2019-05-27 20:21:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements): Run with 'lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements' was passed
+
+2019-05-27 20:21:21 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-27 20:21:21 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:21:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-27 20:21:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:21:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-27 20:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-27 20:21:23 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-27 20:21:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-27 20:21:28 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-27 20:21:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:21:31 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-27 20:21:31 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-27 20:21:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:21:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-27 20:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-27 20:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-27 20:21:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-27 20:21:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-27 20:21:41 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:21:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-27 20:21:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-27 20:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-27 20:21:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-27 20:21:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-27 20:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-27 20:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-27 20:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-27 20:21:45 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:21:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-27 20:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_Option2.Perimeter Measurements' is present
+
+2019-05-27 20:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/PremierMeasurements/input_Option2.Perimeter Measurements' is clicked on
+
+2019-05-27 20:21:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:21:48 - [MESSAGE][PASSED] - Text 'Option 2. Perimeter Measurements' is present on page 
+
+2019-05-27 20:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/table_SiteLightnigMeasures' is present
+
+2019-05-27 20:21:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid' is cleared
+
+2019-05-27 20:21:48 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid'
+
+2019-05-27 20:21:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights off' is cleared
+
+2019-05-27 20:21:49 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights off'
+
+2019-05-27 20:21:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights on' is cleared
+
+2019-05-27 20:21:49 - [MESSAGE][PASSED] - Text '57' is set on object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights on'
+
+2019-05-27 20:21:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/PremierMeasurements/i_SiteExterio_plus icon' is clicked on
+
+2019-05-27 20:21:53 - [MESSAGE][PASSED] - Text '57' is set on object ''
+
+2019-05-27 20:21:53 - [MESSAGE][PASSED] - Text '58' is set on object ''
+
+2019-05-27 20:21:53 - [MESSAGE][PASSED] - Text '59' is set on object ''
+
+2019-05-27 20:21:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:21:55 - [MESSAGE][PASSED] - Text '60' is set on object ''
+
+2019-05-27 20:21:55 - [MESSAGE][PASSED] - Text '61' is set on object ''
+
+2019-05-27 20:21:55 - [MESSAGE][PASSED] - Text '62' is set on object ''
+
+2019-05-27 20:21:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is clicked on
+
+2019-05-27 20:21:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/Input_Percent Increase' is: '1.79'
+
+2019-05-27 20:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is visible
+
+2019-05-27 20:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-27 20:21:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:21:59 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-05-27 20:21:59 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '57'
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '58'
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '59'
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Actual text '57' and expected text '57' are matched 
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Actual text '58' and expected text '58' are matched 
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Actual text '59' and expected text '59' are matched 
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '60'
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '61'
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '62'
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Actual text '60' and expected text '60' are matched 
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Actual text '61' and expected text '61' are matched 
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Actual text '62' and expected text '62' are matched 
+
+2019-05-27 20:22:01 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_VerifyLPR" classname="Test Cases/LightPollutionReduction/TC_VerifyLPR" status="PASSED">
+         <system-out><![CDATA[2019-05-27 20:22:01 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_VerifyLPR: Test Cases/LightPollutionReduction/TC_VerifyLPR
+
+2019-05-27 20:22:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_VerifyLPR): Run with 'lightPollutionReductionForm.Runner_VerifyLPR' was passed
+
+2019-05-27 20:22:02 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-27 20:22:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:22:02 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-27 20:22:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:22:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-27 20:22:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-27 20:22:04 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-27 20:22:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-27 20:22:10 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-27 20:22:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:22:12 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-27 20:22:13 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-27 20:22:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:22:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-27 20:22:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-27 20:22:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-27 20:22:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-27 20:22:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-27 20:22:23 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:22:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-27 20:22:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-27 20:22:24 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-27 20:22:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-27 20:22:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-27 20:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-27 20:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-27 20:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-27 20:22:27 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:22:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-27 20:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-27 20:22:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' successfully
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' is present
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-27 20:22:30 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Table_siteplan' is present
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-05-27 20:22:31 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Table_additionaldoc' is present
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-27 20:22:32 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_VerifyLPR' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_DeleteTableData" classname="Test Cases/LightPollutionReduction/TC_DeleteTableData" status="PASSED">
+         <system-out><![CDATA[2019-05-27 20:22:32 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_DeleteTableData: Test Cases/LightPollutionReduction/TC_DeleteTableData
+
+2019-05-27 20:22:33 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteTableData): Run with 'lightPollutionReductionForm.Runner_DeleteTableData' was passed
+
+2019-05-27 20:22:33 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-27 20:22:33 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:22:33 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-27 20:22:33 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:22:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-27 20:22:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-27 20:22:35 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-27 20:22:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-27 20:22:40 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-27 20:22:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:22:42 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-27 20:22:42 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-27 20:22:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:22:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-27 20:22:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-27 20:22:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-27 20:22:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-27 20:22:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-27 20:22:53 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:22:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-27 20:22:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-27 20:22:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-27 20:22:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-27 20:22:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-27 20:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-27 20:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-27 20:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-27 20:22:57 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:22:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-27 20:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/PremierMeasurements/input_Option2.Perimeter Measurements' is clicked on
+
+2019-05-27 20:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/table_SiteLightnigMeasures' is present
+
+2019-05-27 20:22:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:00 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-05-27 20:23:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:03 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-05-27 20:23:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:04 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //*[@id="credit-form"]/div[3]/div[2]/div/table/tbody/tr[2]/td[1]/input' is not present after '30' second(s)
+
+2019-05-27 20:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid' is present
+
+2019-05-27 20:23:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-27 20:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-27 20:23:04 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_DeleteTableData' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_DeleteLPR" classname="Test Cases/LightPollutionReduction/TC_DeleteLPR" status="PASSED">
+         <system-out><![CDATA[2019-05-27 20:23:04 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_DeleteLPR: Test Cases/LightPollutionReduction/TC_DeleteLPR
+
+2019-05-27 20:23:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteLPR): Run with 'lightPollutionReductionForm.Runner_DeleteLPR' was passed
+
+2019-05-27 20:23:05 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-27 20:23:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:23:05 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-27 20:23:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:23:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-27 20:23:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-27 20:23:07 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-27 20:23:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-27 20:23:12 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-27 20:23:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:14 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-27 20:23:14 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-27 20:23:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:23:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-27 20:23:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-27 20:23:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-27 20:23:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-27 20:23:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-27 20:23:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-27 20:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-27 20:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-27 20:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-27 20:23:29 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-27 20:23:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-27 20:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-27 20:23:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' successfully
+
+2019-05-27 20:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' is present
+
+2019-05-27 20:23:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-27 20:23:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:23:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:23:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:23:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' located by 'By.xpath: //*[@id="shieldingInfoUpload_files"]/table' is not present after '30' second(s)
+
+2019-05-27 20:23:44 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Table_siteplan' is present
+
+2019-05-27 20:23:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-27 20:23:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:23:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:23:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:23:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:23:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Table_siteplan' located by 'By.xpath: //*[@id="sitePlanUpload_files"]/table' is not present after '30' second(s)
+
+2019-05-27 20:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Table_additionaldoc' is present
+
+2019-05-27 20:23:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-27 20:23:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:23:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:24:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:24:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:24:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:24:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:24:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:24:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:24:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-27 20:24:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:24:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Table_additionaldoc' located by 'By.xpath: //*[@id="splCircumstancesDocs_files"]/table' is not present after '30' second(s)
+
+2019-05-27 20:24:10 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_DeleteLPR' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-27 20:20:11 - [TEST_SUITE][PASSED] - SmokeTest: Test Cases/LightPollutionReduction/TC_DeleteLPR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GCP_NegativeCases_option1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2c9d73a-51e1-44a5-9c32-df72aa6138a5</testCaseGuid>
+</TestCaseEntity>

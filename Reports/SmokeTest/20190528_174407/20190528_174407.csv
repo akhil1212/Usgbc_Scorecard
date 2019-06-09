@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,Chrome 74.0.3729.169,,2019-05-28 17:44:15,2019-05-28 17:56:41,12m - 25.754s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm,Chrome 74.0.3729.169,,2019-05-28 17:44:15,2019-05-28 17:46:19,2m - 3.368s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm),Chrome 74.0.3729.169,,2019-05-28 17:44:16,2019-05-28 17:46:19,2m - 2.758s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_VerifyLPR,Chrome 74.0.3729.169,,2019-05-28 17:46:19,2019-05-28 17:46:55,36.367s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_VerifyLPR),Chrome 74.0.3729.169,,2019-05-28 17:46:19,2019-05-28 17:46:55,35.717s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DownloadLPR,Chrome 74.0.3729.169,,2019-05-28 17:46:55,2019-05-28 17:50:17,3m - 22.153s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DownloadLPR),Chrome 74.0.3729.169,,2019-05-28 17:46:56,2019-05-28 17:50:17,3m - 21.759s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements,Chrome 74.0.3729.169,,2019-05-28 17:50:17,2019-05-28 17:51:44,1m - 27.009s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements),Chrome 74.0.3729.169,,2019-05-28 17:50:18,2019-05-28 17:51:44,1m - 26.457s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteTableData,Chrome 74.0.3729.169,,2019-05-28 17:51:44,2019-05-28 17:52:26,41.457s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteTableData),Chrome 74.0.3729.169,,2019-05-28 17:51:45,2019-05-28 17:52:26,41.169s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteLPR,Chrome 74.0.3729.169,,2019-05-28 17:52:26,2019-05-28 17:53:32,1m - 6.510s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteLPR),Chrome 74.0.3729.169,,2019-05-28 17:52:26,2019-05-28 17:53:32,1m - 6.252s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_NegativeCasesLPR,Chrome 74.0.3729.169,,2019-05-28 17:53:32,2019-05-28 17:56:40,3m - 7.197s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_NegativeCasesLPR),Chrome 74.0.3729.169,,2019-05-28 17:53:33,2019-05-28 17:56:40,3m - 6.942s,PASSED

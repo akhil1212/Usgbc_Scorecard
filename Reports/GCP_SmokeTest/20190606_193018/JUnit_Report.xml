@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GCP_SmokeTest" time="199" tests="1" failures="0" errors="0">
+   <testsuite name="GCP_SmokeTest" tests="1" failures="0" errors="0" time="199" timestamp="2019-06-06 19:30:36" hostname="promantus inc - G10PROLT025" id="Test Suites/GCP_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190606_193018"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190606_193018\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="61b51961f686f33554c790264d48d7b5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GreenCleaningPolicy/TC_GCP_In-house" classname="Test Cases/GreenCleaningPolicy/TC_GCP_In-house" status="PASSED">
+         <system-out><![CDATA[2019-06-06 19:30:36 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_GCP_In-house: Test Cases/GreenCleaningPolicy/TC_GCP_In-house
+
+2019-06-06 19:30:36 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_In_house): Run with 'greenCleaningPolicyForm.Runner_In_house' was passed
+
+2019-06-06 19:30:38 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_NavigateToGCP: Test Cases/GreenCleaningPolicy/TC_NavigateToGCP
+
+2019-06-06 19:30:39 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_NavigateToGCP): Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-06 19:30:39 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-06 19:30:39 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-06 19:30:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-06 19:30:40 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-06 19:30:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-06 19:30:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-06 19:30:48 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-06 19:30:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:30:51 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-06 19:30:51 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-06 19:30:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 19:30:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-06 19:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-06 19:30:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-06 19:30:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-06 19:31:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' successfully
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is present
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/divval' is: 'READY FOR REVIEW'
+
+2019-06-06 19:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_MarkReadyForReview' is clicked on
+
+2019-06-06 19:31:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:31:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-06 19:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-06 19:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-06 19:31:25 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy_Credit library' is present
+
+2019-06-06 19:31:25 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-06 19:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaningPolicy/TC_NavigateToGCP' successfully
+
+2019-06-06 19:31:25 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/input_Option1_Radiobtn' is present
+
+2019-06-06 19:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/input_Option1_Radiobtn' is clicked on
+
+2019-06-06 19:31:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:31:28 - [MESSAGE][PASSED] - Text 'Option 1. In-house green cleaning policy' is present on page 
+
+2019-06-06 19:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/p_Upload the Green Cleaning Policy' is present
+
+2019-06-06 19:31:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/p_Upload the Green Cleaning Policy' successfully
+
+2019-06-06 19:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/Button_UploadGreenCleaningPlcy' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 19:31:28 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/input_UploadGreenCleaningPlcy'
+
+2019-06-06 19:31:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:31:35 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/Button_UploadGreenCleaningPlcy' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 19:31:35 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/input_UploadGreenCleaningPlcy'
+
+2019-06-06 19:31:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:31:55 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/Button_UploadGreenCleaningPlcy' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 19:31:55 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/input_UploadGreenCleaningPlcy'
+
+2019-06-06 19:31:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:31:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/p_CleaningService' successfully
+
+2019-06-06 19:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/p_CleaningService' is present
+
+2019-06-06 19:32:01 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' is set on object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox'
+
+2019-06-06 19:32:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 19:32:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO'
+
+2019-06-06 19:32:04 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' are matched 
+
+2019-06-06 19:32:04 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/p_Upload any additional documentation that supports' is present
+
+2019-06-06 19:32:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/p_Upload any additional documentation that supports' successfully
+
+2019-06-06 19:32:05 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/Button_UploadAdditionalDoc_SC' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 19:32:05 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/input_UploadAdditionalDoc_SC'
+
+2019-06-06 19:32:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/Button_UploadAdditionalDoc_SC' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 19:32:16 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/input_UploadAdditionalDoc_SC'
+
+2019-06-06 19:32:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:32:32 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/Button_UploadAdditionalDoc_SC' has attribute 'class' with value 'tiny ui button'
+
+2019-06-06 19:32:32 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/input_UploadAdditionalDoc_SC'
+
+2019-06-06 19:32:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-06 19:32:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' successfully
+
+2019-06-06 19:32:33 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' is present
+
+2019-06-06 19:32:37 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' is set on object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-06-06 19:32:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-06 19:32:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO'
+
+2019-06-06 19:32:40 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' are matched 
+
+2019-06-06 19:32:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 19:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/button_Save' is visible
+
+2019-06-06 19:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/button_Save' is clicked on
+
+2019-06-06 19:32:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:32:53 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-06-06 19:32:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/icon_pdf' successfully
+
+2019-06-06 19:32:53 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/icon_pdf' is present
+
+2019-06-06 19:32:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/icon_pdf' is clicked on
+
+2019-06-06 19:33:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-06 19:33:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:33:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/p_Upload the Green Cleaning Policy' successfully
+
+2019-06-06 19:33:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:33:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/p_CleaningService' successfully
+
+2019-06-06 19:33:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO'
+
+2019-06-06 19:33:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:33:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' successfully
+
+2019-06-06 19:33:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO'
+
+2019-06-06 19:33:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:33:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' successfully
+
+2019-06-06 19:33:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:41 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-06-06 19:33:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO'
+
+2019-06-06 19:33:41 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' are matched 
+
+2019-06-06 19:33:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO'
+
+2019-06-06 19:33:44 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. 45UQO' are matched 
+
+2019-06-06 19:33:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-06 19:33:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-06 19:33:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-06 19:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_MarkReadyForReview' is clicked on
+
+2019-06-06 19:33:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-06 19:33:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-06 19:33:54 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_In_house' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-06 19:30:36 - [TEST_SUITE][PASSED] - GCP_SmokeTest: Test Cases/GreenCleaningPolicy/TC_GCP_In-house]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

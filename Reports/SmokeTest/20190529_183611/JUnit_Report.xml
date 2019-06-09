@@ -1,0 +1,2351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="1247" tests="5" failures="3" errors="0">
+   <testsuite name="SmokeTest" tests="5" failures="3" errors="0" time="1247" timestamp="2019-05-29 18:36:18" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559135791218.png, C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136295664.png, C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136368703.png, C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136417874.png, C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136418272.png, C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136423767.png, C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136424146.png"/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="18a785d7fd8b7647c758e8ef8e7b3f01"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" classname="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" status="PASSED">
+         <system-out><![CDATA[2019-05-29 18:36:18 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm: Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm
+
+2019-05-29 18:36:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm): Run with 'lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm' was passed
+
+2019-05-29 18:36:21 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:36:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:36:22 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:36:22 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:36:22 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:36:22 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:36:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-29 18:36:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:36:28 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:36:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:36:31 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:36:31 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:36:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:36:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:36:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:36:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:36:45 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:36:45 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:36:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:36:45 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is present
+
+2019-05-29 18:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:36:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:36:47 - [MESSAGE][PASSED] - Text 'Option 1. Fixture Shielding' is present on page 
+
+2019-05-29 18:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-29 18:36:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is checked
+
+2019-05-29 18:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is present
+
+2019-05-29 18:36:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:36:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:36:50 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-29 18:36:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:36:52 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-29 18:36:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/btn_shielding information' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:36:55 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-29 18:36:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:36:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is present
+
+2019-05-29 18:36:57 - [MESSAGE][PASSED] - Text '677' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Actual text '677' and expected text '677' are matched 
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is present
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:37:00 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-29 18:37:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:37:01 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:37:01 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-29 18:37:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/btn_siteplan' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:37:03 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-29 18:37:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:37:05 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is present
+
+2019-05-29 18:37:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-29 18:37:05 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:37:05 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-29 18:37:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:37:06 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-29 18:37:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/btn_SpecialCircumstances' has attribute 'class' with value 'tiny ui button'
+
+2019-05-29 18:37:08 - [MESSAGE][PASSED] - File 'C:\Users\Promantus Inc\Katalon Studio\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-29 18:37:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:37:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' successfully
+
+2019-05-29 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-29 18:37:13 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-29 18:37:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:37:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92'
+
+2019-05-29 18:37:16 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92' are matched 
+
+2019-05-29 18:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is visible
+
+2019-05-29 18:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:37:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:37:18 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-05-29 18:37:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-05-29 18:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-05-29 18:37:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-05-29 18:37:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:37:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:37:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:37:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-29 18:37:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:37:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:37:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:37:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:37:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:37:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' successfully
+
+2019-05-29 18:37:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92'
+
+2019-05-29 18:38:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:38:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:38:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-29 18:38:07 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-05-29 18:38:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-29 18:38:07 - [MESSAGE][PASSED] - Actual text '677' and expected text '677' are matched 
+
+2019-05-29 18:38:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92'
+
+2019-05-29 18:38:07 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family. Because I see the mind is the most important. Let think that if you are verry rich while you alway are worry and sad, you will feel not happy. So I think we should spend many time for looking after our family. When we have a happy family, we will have power to try. At that time we will work better. How do you think. Anna and Henry go to the doctor. Anna has an ultrasound scan. HJQ92' are matched 
+
+2019-05-29 18:38:07 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_VerifyLPR" classname="Test Cases/LightPollutionReduction/TC_VerifyLPR" status="PASSED">
+         <system-out><![CDATA[2019-05-29 18:38:07 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_VerifyLPR: Test Cases/LightPollutionReduction/TC_VerifyLPR
+
+2019-05-29 18:38:07 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_VerifyLPR): Run with 'lightPollutionReductionForm.Runner_VerifyLPR' was passed
+
+2019-05-29 18:38:08 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:38:08 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:38:08 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:38:08 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:38:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:38:09 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:38:09 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:38:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:38:14 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:38:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:38:16 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:38:16 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:38:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:38:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:38:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:38:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:38:28 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:38:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:38:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:38:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' successfully
+
+2019-05-29 18:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' is present
+
+2019-05-29 18:38:31 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Table_siteplan' is present
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-05-29 18:38:32 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Table_additionaldoc' is present
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-29 18:38:33 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_VerifyLPR' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_DownloadLPR" classname="Test Cases/LightPollutionReduction/TC_DownloadLPR" status="PASSED">
+         <system-out><![CDATA[2019-05-29 18:38:33 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_DownloadLPR: Test Cases/LightPollutionReduction/TC_DownloadLPR
+
+2019-05-29 18:38:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_DownloadLPR): Run with 'lightPollutionReductionForm.Runner_DownloadLPR' was passed
+
+2019-05-29 18:38:34 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:38:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:38:34 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:38:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:38:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:38:35 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:38:35 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:38:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:38:40 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:38:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:38:42 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:38:42 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:38:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:38:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:38:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:38:45 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:38:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:38:56 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:38:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:38:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:38:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' successfully
+
+2019-05-29 18:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Table_shielding information' is present
+
+2019-05-29 18:38:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:39:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is hovered
+
+2019-05-29 18:39:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:39:01 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-29 18:39:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is hovered
+
+2019-05-29 18:39:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is hovered
+
+2019-05-29 18:39:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:39:15 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-29 18:39:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is hovered
+
+2019-05-29 18:39:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is hovered
+
+2019-05-29 18:39:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:39:30 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-29 18:39:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is hovered
+
+2019-05-29 18:39:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:39:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:39:48 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:39:48 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:39:48 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-29 18:39:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:39:51 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:39:51 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:39:51 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-29 18:39:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:39:54 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:39:54 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:39:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-29 18:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Table_siteplan' is present
+
+2019-05-29 18:39:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:39:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is hovered
+
+2019-05-29 18:39:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:39:56 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-29 18:40:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is hovered
+
+2019-05-29 18:40:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is hovered
+
+2019-05-29 18:40:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:40:11 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-29 18:40:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is hovered
+
+2019-05-29 18:40:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is hovered
+
+2019-05-29 18:40:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:40:25 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-29 18:40:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is hovered
+
+2019-05-29 18:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:40:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:40:43 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:40:43 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:40:43 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-29 18:40:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:40:46 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:40:46 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:40:46 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-29 18:40:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:40:49 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:40:49 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:40:49 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-29 18:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Table_additionaldoc' is present
+
+2019-05-29 18:40:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-29 18:40:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is hovered
+
+2019-05-29 18:40:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:40:52 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-05-29 18:41:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is hovered
+
+2019-05-29 18:41:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is hovered
+
+2019-05-29 18:41:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:41:06 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-05-29 18:41:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is hovered
+
+2019-05-29 18:41:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is hovered
+
+2019-05-29 18:41:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:41:21 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-05-29 18:41:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is hovered
+
+2019-05-29 18:41:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:41:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:41:39 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:41:39 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:41:39 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-05-29 18:41:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:41:42 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:41:42 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:41:42 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-05-29 18:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:41:45 - [MESSAGE][PASSED] - ZZ.pdf exist in C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-05-29 18:41:45 - [MESSAGE][PASSED] - 
+
+2019-05-29 18:41:45 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-05-29 18:41:45 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_DownloadLPR' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements" classname="Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+"/>
+         <system-out><![CDATA[2019-05-29 18:41:45 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements: Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+
+
+2019-05-29 18:41:45 - [TEST_STEP][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements): runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+
+
+2019-05-29 18:41:46 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:41:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:41:46 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:41:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:41:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:41:47 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:41:47 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:41:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:41:52 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:41:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:41:54 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:41:54 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:41:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:41:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:41:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:42:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:42:04 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:42:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:42:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:42:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:42:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:43:42 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:43:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_Option2.Perimeter Measurements' is present
+
+2019-05-29 18:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/PremierMeasurements/input_Option2.Perimeter Measurements' is clicked on
+
+2019-05-29 18:43:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:43:44 - [MESSAGE][PASSED] - Text 'Option 2. Perimeter Measurements' is present on page 
+
+2019-05-29 18:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/table_SiteLightnigMeasures' is present
+
+2019-05-29 18:43:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid' is cleared
+
+2019-05-29 18:43:45 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid'
+
+2019-05-29 18:43:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights off' is cleared
+
+2019-05-29 18:43:45 - [MESSAGE][PASSED] - Text '56' is set on object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights off'
+
+2019-05-29 18:43:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights on' is cleared
+
+2019-05-29 18:43:45 - [MESSAGE][PASSED] - Text '57' is set on object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights on'
+
+2019-05-29 18:43:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/PremierMeasurements/i_SiteExterio_plus icon' is clicked on
+
+2019-05-29 18:43:48 - [MESSAGE][PASSED] - Text '57' is set on object ''
+
+2019-05-29 18:43:49 - [MESSAGE][PASSED] - Text '58' is set on object ''
+
+2019-05-29 18:43:49 - [MESSAGE][PASSED] - Text '59' is set on object ''
+
+2019-05-29 18:43:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:43:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:43:50 - [MESSAGE][PASSED] - Text '60' is set on object ''
+
+2019-05-29 18:43:50 - [MESSAGE][PASSED] - Text '61' is set on object ''
+
+2019-05-29 18:43:50 - [MESSAGE][PASSED] - Text '62' is set on object ''
+
+2019-05-29 18:43:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is clicked on
+
+2019-05-29 18:43:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/Input_Percent Increase' is: '1.79'
+
+2019-05-29 18:43:52 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is visible
+
+2019-05-29 18:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:43:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:43:54 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-05-29 18:45:26 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '57'
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '58'
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '59'
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Actual text '57' and expected text '57' are matched 
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Actual text '58' and expected text '58' are matched 
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Actual text '59' and expected text '59' are matched 
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '60'
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '61'
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '62'
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Actual text '60' and expected text '60' are matched 
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Actual text '61' and expected text '61' are matched 
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Actual text '62' and expected text '62' are matched 
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' successfully
+
+2019-05-29 18:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is present
+
+2019-05-29 18:45:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/icon_pdf' is clicked on
+
+2019-05-29 18:45:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:45:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/PremierMeasurements/table_SiteLightnigMeasures' successfully
+
+2019-05-29 18:45:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid' is: '55'
+
+2019-05-29 18:45:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights off' is: '56'
+
+2019-05-29 18:45:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_With SiteExterior Lights on' is: '57'
+
+2019-05-29 18:45:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/PremierMeasurements/Input_Percent Increase' is: '1.79'
+
+2019-05-29 18:45:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:45:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is: '677'
+
+2019-05-29 18:45:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:45:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:45:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:45:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:46:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:46:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' successfully
+
+2019-05-29 18:46:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='cke_1_contents']/iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-29 18:46:31 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559135791218.png]]
+
+2019-05-29 18:46:31 - [MESSAGE][FAILED] - These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+
+2019-05-29 18:46:31 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+)
+
+2019-05-29 18:46:31 - [MESSAGE][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_PreimeterMeasurements) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-05-29 18:41:45 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements: Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_DeleteTableData" classname="Test Cases/LightPollutionReduction/TC_DeleteTableData" status="PASSED">
+         <system-out><![CDATA[2019-05-29 18:46:31 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_DeleteTableData: Test Cases/LightPollutionReduction/TC_DeleteTableData
+
+2019-05-29 18:46:31 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteTableData): Run with 'lightPollutionReductionForm.Runner_DeleteTableData' was passed
+
+2019-05-29 18:46:32 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:46:32 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:46:32 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:46:32 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:46:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:46:33 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:46:33 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:46:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:46:38 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:46:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:46:40 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:46:40 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:46:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:46:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:46:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:46:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:46:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:46:53 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:46:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/PremierMeasurements/input_Option2.Perimeter Measurements' is clicked on
+
+2019-05-29 18:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/table_SiteLightnigMeasures' is present
+
+2019-05-29 18:46:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:46:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:46:57 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-05-29 18:46:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:46:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:46:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:46:59 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-05-29 18:46:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:47:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:47:00 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //*[@id="credit-form"]/div[3]/div[2]/div/table/tbody/tr[2]/td[1]/input' is not present after '30' second(s)
+
+2019-05-29 18:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/PremierMeasurements/input_measurementid' is present
+
+2019-05-29 18:47:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-29 18:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:47:00 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_DeleteTableData' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_DeleteLPR" classname="Test Cases/LightPollutionReduction/TC_DeleteLPR" status="PASSED">
+         <system-out><![CDATA[2019-05-29 18:47:00 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_DeleteLPR: Test Cases/LightPollutionReduction/TC_DeleteLPR
+
+2019-05-29 18:47:00 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteLPR): Run with 'lightPollutionReductionForm.Runner_DeleteLPR' was passed
+
+2019-05-29 18:47:01 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:47:01 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:47:01 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:47:01 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:47:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:47:02 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:47:02 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:47:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:47:06 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:47:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:47:08 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:47:08 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:47:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:47:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:47:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:47:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:47:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:47:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:47:21 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:47:21 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:47:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:47:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:47:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-05-29 18:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:47:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:47:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:47:42 PM  Clear draft'
+
+2019-05-29 18:47:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file' successfully
+
+2019-05-29 18:47:42 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-29 18:47:42 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-29 18:47:57 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-05-29 18:47:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:47:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:47:42 PM  Clear draft'
+
+2019-05-29 18:47:57 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:47:42 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:47:42 PM  Clear draft' are matched 
+
+2019-05-29 18:47:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-29 18:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is clicked on
+
+2019-05-29 18:48:09 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2019-05-29 18:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:48:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:48:02 PM  Clear draft'
+
+2019-05-29 18:48:09 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:47:42 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:48:02 PM  Clear draft' are not matched 
+
+2019-05-29 18:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-29 18:48:10 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-29 18:48:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:48:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:48:12 PM  Clear draft'
+
+2019-05-29 18:48:20 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:48:02 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:48:12 PM  Clear draft' are not matched 
+
+2019-05-29 18:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is present
+
+2019-05-29 18:48:20 - [MESSAGE][PASSED] - Text '67' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:48:22 PM  Clear draft'
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:48:12 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:48:22 PM  Clear draft' are not matched 
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is present
+
+2019-05-29 18:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:48:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:48:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-05-29 18:48:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:48:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:48:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:48:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:48:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:48:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:48:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:48:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:48:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:48:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:48:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:48:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:48:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:48:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:48:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:48:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:48:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:48:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:48:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:49:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:49:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:49:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:49:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:49:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:49:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:49:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:49:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:49:12 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-29 18:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:49:13 - [MESSAGE][PASSED] - Text 'Testing for ClearDraft' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-29 18:49:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is present
+
+2019-05-29 18:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is clicked on
+
+2019-05-29 18:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:49:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-29 18:49:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-05-29 18:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-29 18:49:29 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-29 18:49:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:49:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:49:38 PM  Clear draft'
+
+2019-05-29 18:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/div_Signout' is clicked on
+
+2019-05-29 18:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Sign out' is clicked on
+
+2019-05-29 18:49:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:49:40 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:49:40 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:49:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:49:44 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:49:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:49:47 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:49:47 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:49:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:49:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:49:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:49:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' is present
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 29 May 2019 06:49:38 PM  Clear draft'
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:49:38 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:49:38 PM  Clear draft' are matched 
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is clicked on
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-05-29 18:51:46 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_DeleteLPR' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_NegativeCasesLPR" classname="Test Cases/LightPollutionReduction/TC_NegativeCasesLPR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LightPollutionReduction/TC_NegativeCasesLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_NegativeCasesLPR.run(TC_NegativeCasesLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+"/>
+         <system-out><![CDATA[2019-05-29 18:51:46 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_NegativeCasesLPR: Test Cases/LightPollutionReduction/TC_NegativeCasesLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_NegativeCasesLPR.run(TC_NegativeCasesLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+
+
+2019-05-29 18:51:47 - [TEST_STEP][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NegativeCasesLPR): runWithCucumberRunner(lightPollutionReductionForm.Runner_NegativeCasesLPR) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_NegativeCasesLPR.run(TC_NegativeCasesLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+
+
+2019-05-29 18:51:47 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:51:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:51:47 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:51:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:51:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:51:48 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:51:48 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:51:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:51:52 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:51:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:51:54 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:51:55 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:51:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:51:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:51:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:52:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:52:04 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:52:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:52:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:52:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:52:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:53:50 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:53:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:53:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:53:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-29 18:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:53:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:53:55 - [MESSAGE][PASSED] - Text 'Please fix the highlighted errors.' is present on page 
+
+2019-05-29 18:53:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:53:57 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is present
+
+2019-05-29 18:53:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:53:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:53:57 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-29 18:53:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:53:59 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-05-29 18:53:59 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' is present
+
+2019-05-29 18:53:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/p_Upload shielding information' successfully
+
+2019-05-29 18:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:01 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_shielding information/Addfile_shielding information/input_file'
+
+2019-05-29 18:54:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-29 18:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:54:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:04 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-05-29 18:54:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is present
+
+2019-05-29 18:54:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:54:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:54:06 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-29 18:54:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:08 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-05-29 18:54:08 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' is present
+
+2019-05-29 18:54:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/p_Upload a site plan with scal' successfully
+
+2019-05-29 18:54:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:10 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_siteplan/Addfile_siteplan/input_siteplan'
+
+2019-05-29 18:54:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-29 18:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:54:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:13 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-05-29 18:54:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is present
+
+2019-05-29 18:54:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-29 18:54:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-29 18:54:15 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/102MBfile.pdf' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-29 18:54:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:17 - [MESSAGE][PASSED] - Text 'Maximum allowed file size is 100 MB only.' is present on page 
+
+2019-05-29 18:54:17 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' is present
+
+2019-05-29 18:54:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/p_Upload any additional docume' successfully
+
+2019-05-29 18:54:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:19 - [MESSAGE][PASSED] - File 'C:/Users/Promantus Inc/Katalon Studio/Usgbc_LeedOnline_ScoreCard/Include/TestData/NegativeTestFiles/24MBfile.doc' sent to object: 'Object Repository/LightPollutionReduction/FixtureShielding/Upload_SpecialCircumstances/Addfile_SpecialCicumstances/input_additional'
+
+2019-05-29 18:54:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' successfully
+
+2019-05-29 18:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:54:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:21 - [MESSAGE][PASSED] - Text 'Please wait running actions to complete.' is present on page 
+
+2019-05-29 18:54:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:54:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:54:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='clearDraft']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-29 18:54:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft'
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136295664.png]]
+
+2019-05-29 18:54:56 - [MESSAGE][FAILED] - These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+
+2019-05-29 18:54:56 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_NegativeCasesLPR.run(TC_NegativeCasesLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+)
+
+2019-05-29 18:54:56 - [MESSAGE][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NegativeCasesLPR) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_NegativeCasesLPR.run(TC_NegativeCasesLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-05-29 18:51:46 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_NegativeCasesLPR: Test Cases/LightPollutionReduction/TC_NegativeCasesLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object 'Object Repository/LightPollutionReduction/FixtureShielding/a_Clear draft']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_NegativeCasesLPR.run(TC_NegativeCasesLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR" classname="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='sitePlanUpload_files']/table/tbody/tr&quot;}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+"/>
+         <system-out><![CDATA[2019-05-29 18:54:56 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sitePlanUpload_files']/table/tbody/tr"}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+
+
+2019-05-29 18:54:56 - [TEST_STEP][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR): runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sitePlanUpload_files']/table/tbody/tr"}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+
+
+2019-05-29 18:54:56 - [TEST_CASE][PASSED] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: Test Cases/LightPollutionReduction/TC_NavigateToLPR
+
+2019-05-29 18:54:56 - [TEST_STEP][PASSED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:54:56 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-29 18:54:56 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:54:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-29 18:54:57 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-05-29 18:54:57 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-29 18:54:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 18:55:01 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-29 18:55:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-29 18:55:03 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-29 18:55:04 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-29 18:55:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-29 18:55:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-29 18:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-29 18:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-29 18:55:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-29 18:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-29 18:55:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-29 18:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-29 18:55:13 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-29 18:55:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-29 18:55:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-29 18:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-29 18:55:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-29 18:55:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-29 18:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-29 18:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/span_(V01)' is clicked on
+
+2019-05-29 18:55:17 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_LPRForm' is present
+
+2019-05-29 18:55:17 - [MESSAGE][PASSED] - Run with 'lightPollutionReductionForm.Runner_NavigateToLPR' was passed
+
+2019-05-29 18:55:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LightPollutionReduction/TC_NavigateToLPR' successfully
+
+2019-05-29 18:55:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:55:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-05-29 18:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Select one of the following_selectedOption' is clicked on
+
+2019-05-29 18:55:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:56:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-29 18:56:09 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on'
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136368703.png]]
+
+2019-05-29 18:56:09 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is present
+
+2019-05-29 18:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/input_Option 1. Fixture Shielding_exteriorFixtures' is clicked on
+
+2019-05-29 18:56:21 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2019-05-29 18:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:56:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:56:19 PM  Clear draft'
+
+2019-05-29 18:56:21 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:47:42 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:19 PM  Clear draft' are not matched 
+
+2019-05-29 18:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+
+2019-05-29 18:56:21 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor'
+
+2019-05-29 18:56:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:56:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft'
+
+2019-05-29 18:56:32 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 29 May 2019 06:56:19 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are not matched 
+
+2019-05-29 18:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease' is present
+
+2019-05-29 18:56:32 - [MESSAGE][PASSED] - Text '67' is set on object 'Object Repository/LightPollutionReduction/FixtureShielding/input_PercentIncrease'
+
+2019-05-29 18:56:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:56:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft'
+
+2019-05-29 18:56:42 - [MESSAGE][FAILED] - Unable to verify not match between actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched
+	at com.kms.katalon.core.keyword.builtin.VerifyNotMatchKeyword$_verifyNotMatch_closure1.doCall(VerifyNotMatchKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyNotMatchKeyword$_verifyNotMatch_closure1.call(VerifyNotMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyNotMatchKeyword.verifyNotMatch(VerifyNotMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyNotMatchKeyword.execute(VerifyNotMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyNotMatch(BuiltinKeywords.groovy:110)
+	at lightPollutionReductionForm.AutoSaveAsDraftLPR.user_can_see_the_draft_is_saved_automatically_with_date_and_time_for_change_in_textbox_in_Light_Polluton_Reduction_form(AutoSaveAsDraftLPR.groovy:198)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+)
+
+2019-05-29 18:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-05-29 18:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is present
+
+2019-05-29 18:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/Saveform/btn_Save' is clicked on
+
+2019-05-29 18:56:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-29 18:56:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-05-29 18:56:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='creditHtmlForm']/iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-29 18:56:58 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LightPollutionReduction/FixtureShielding/iframe' located by 'By.xpath: //div[@id='creditHtmlForm']/iframe' not found
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136417874.png]]
+
+2019-05-29 18:56:58 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136418272.png]]
+
+2019-05-29 18:57:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='creditHtmlForm']/iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-29 18:57:04 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LightPollutionReduction/FixtureShielding/iframe' located by 'By.xpath: //div[@id='creditHtmlForm']/iframe' not found
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136423767.png]]
+
+2019-05-29 18:57:04 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present
+[[ATTACHMENT|C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190529_183611\\1559136424146.png]]
+
+2019-05-29 18:57:04 - [MESSAGE][FAILED] - These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sitePlanUpload_files']/table/tbody/tr"}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+
+2019-05-29 18:57:04 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sitePlanUpload_files']/table/tbody/tr"}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)
+)
+
+2019-05-29 18:57:04 - [MESSAGE][FAILED] - runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sitePlanUpload_files']/table/tbody/tr"}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-05-29 18:54:56 - [TEST_CASE][FAILED] - Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR: Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on', Actual text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' and expected text 'Last draft saved on: 29 May 2019 06:56:29 PM  Clear draft' are matched , but expected not to be matched, no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sitePlanUpload_files']/table/tbody/tr"}
+  (Session info: headless chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT021', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57318}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 18a785d7fd8b7647c758e8ef8e7b3f01
+*** Element info: {Using=xpath, value=//*[@id='sitePlanUpload_files']/table/tbody/tr}, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present, Unable to verify object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/p_Describe the circumstances l' is present]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_AutoSaveAsDraftLPR.run(TC_AutoSaveAsDraftLPR:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-29 18:36:18 - [TEST_SUITE][FAILED] - SmokeTest: Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-05-29 18:36:18 - [TEST_SUITE][FAILED] - SmokeTest: Test Cases/LightPollutionReduction/TC_LPR_PerimeterMeasurements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to get text of object 'Object Repository/LightPollutionReduction/FixtureShielding/Htmleditorbox_sc/body_SC_Editor']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_LPR_PerimeterMeasurements.run(TC_LPR_PerimeterMeasurements:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559135171129.run(TempTestSuite1559135171129.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

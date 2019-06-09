@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,,,2019-05-30 09:31:54,2019-05-30 09:31:57,2.382s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_DeleteLPR,,,2019-05-30 09:31:55,2019-05-30 09:31:57,1.881s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_DeleteLPR),,,2019-05-30 09:31:55,2019-05-30 09:31:57,1.422s,PASSED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GCP_SmokeTest,Chrome 74.0.3729.169,,,2019-06-06 19:30:36,2019-06-06 19:33:55,3m - 19.283s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_In-house,Chrome 74.0.3729.169,,,2019-06-06 19:30:36,2019-06-06 19:33:54,3m - 18.202s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_In_house),Chrome 74.0.3729.169,,,2019-06-06 19:30:36,2019-06-06 19:33:54,3m - 17.785s,PASSED

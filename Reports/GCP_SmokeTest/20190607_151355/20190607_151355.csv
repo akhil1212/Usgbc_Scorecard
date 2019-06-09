@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GCP_SmokeTest,Chrome 74.0.3729.169,,,2019-06-07 15:14:15,2019-06-07 15:15:23,1m - 7.799s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2,Chrome 74.0.3729.169,,,2019-06-07 15:14:16,2019-06-07 15:15:22,1m - 6.744s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadedFile_option2),Chrome 74.0.3729.169,,,2019-06-07 15:14:16,2019-06-07 15:15:22,1m - 6.227s,PASSED

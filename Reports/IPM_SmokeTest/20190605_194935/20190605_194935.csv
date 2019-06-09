@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IPM_SmokeTest,Chrome 74.0.3729.169,,2019-06-05 19:49:42,2019-06-05 19:56:36,6m - 53.606s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-05 19:49:43,2019-06-05 19:51:49,2m - 6.233s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-05 19:49:43,2019-06-05 19:51:49,2m - 5.739s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Verify_Files_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-05 19:51:49,2019-06-05 19:52:19,29.867s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Verify_Files_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-05 19:51:49,2019-06-05 19:52:19,29.568s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_DownloadFiles_IPM_InHouseProgram,Chrome 74.0.3729.169,,2019-06-05 19:52:19,2019-06-05 19:55:32,3m - 13.084s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Download_Files_IPM_InHouseProgram),Chrome 74.0.3729.169,,2019-06-05 19:52:19,2019-06-05 19:55:32,3m - 12.934s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_Delete_Files_IPM_InHouse_Program,Chrome 74.0.3729.169,,2019-06-05 19:55:32,2019-06-05 19:56:35,1m - 3.259s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_Delete_Files_IPM_InHouse_Program),Chrome 74.0.3729.169,,2019-06-05 19:55:32,2019-06-05 19:56:35,1m - 3.126s,PASSED

@@ -1,0 +1,112 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 14,
+        "name": "User will login to leed online and navigate to credit page",
+        "description": "",
+        "id": "login-to-usgbc-leed-online-page;user-will-login-to-leed-online-and-navigate-to-credit-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10662556444,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to navigate to leed online home page",
+            "match": {
+              "location": "Login.user_has_to_navigate_to_leed_online_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2573287188,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "Login.user_enters_the_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3568588568,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to accept end user license agreement",
+            "match": {
+              "location": "Login.user_has_to_accept_End_user_license_Agreement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1156843074,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on LOG IN button",
+            "match": {
+              "location": "Login.user_clicks_on_LOG_IN_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6768358092,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Project",
+            "match": {
+              "location": "Login.user_clicks_on_Project()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1970757847,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "Login.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login to USGBC Leed Online Page",
+    "description": "",
+    "id": "login-to-usgbc-leed-online-page",
+    "keyword": "Feature",
+    "uri": "Include/features/Common/Usgbc_Login.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

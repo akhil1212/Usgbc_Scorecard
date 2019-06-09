@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="26" tests="0" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="0" failures="0" errors="0" time="26" timestamp="2019-05-27 20:07:49" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190527_200741"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\Usgbc_LeedOnline_ScoreCard\\Reports\\SmokeTest\\20190527_200741\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="af47f2c09250948788caf44360986e16"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" classname="Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm" status="INCOMPLETE">
+         <system-out><![CDATA[2019-05-27 20:07:49 - [TEST_CASE][INCOMPLETE] - Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm: null
+
+2019-05-27 20:07:50 - [TEST_STEP][INCOMPLETE] - runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm): null
+
+2019-05-27 20:07:53 - [TEST_CASE][INCOMPLETE] - Test Cases/LightPollutionReduction/TC_NavigateToLPR: null
+
+2019-05-27 20:07:53 - [TEST_STEP][INCOMPLETE] - runWithCucumberRunner(lightPollutionReductionForm.Runner_NavigateToLPR): Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on
+
+2019-05-27 20:07:53 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-05-27 20:07:53 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:07:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-27 20:07:54 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-05-27 20:07:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-27 20:07:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-27 20:08:01 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-05-27 20:08:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-27 20:08:03 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-05-27 20:08:03 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-05-27 20:08:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-27 20:08:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-05-27 20:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-05-27 20:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-05-27 20:08:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-27 20:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-05-27 20:08:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' successfully
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is present
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/h3_Status' is: 'ATTEMPTED'
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_LEED Online/div_Attempted Im still working Im done Withdraw Attempt Open to update' is: 'ATTEMPTED'
+
+2019-05-27 20:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/div_Light Pollution Reduction' is clicked on]]></system-out>
+         <system-err><![CDATA[2019-05-27 20:07:49 - [TEST_CASE][INCOMPLETE] - Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-27 20:07:49 - [TEST_SUITE][INCOMPLETE] - SmokeTest: null]]></system-out>
+      <system-err><![CDATA[2019-05-27 20:07:49 - [TEST_SUITE][INCOMPLETE] - SmokeTest: null]]></system-err>
+   </testsuite>
+</testsuites>

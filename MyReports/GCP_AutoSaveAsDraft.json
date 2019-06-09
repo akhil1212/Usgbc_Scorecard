@@ -1,0 +1,472 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Verifying form draft is not saved if no change in the form in GCP",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verifying-form-draft-is-not-saved-if-no-change-in-the-form-in-gcp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38184420094,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on the Formv01 of Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_is_on_the_Formv_of_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10004238349,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User will not modify any field on the Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_will_not_modify_any_field_on_the_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225802237,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should not see saving of draft even after 10 seconds in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_should_not_see_saving_of_draft_even_after_seconds_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verifying form draft is not saved if upload files in the form in GCP",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verifying-form-draft-is-not-saved-if-upload-files-in-the-form-in-gcp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10472823783,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be able to see Upload fle on Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_should_be_able_to_see_Upload_fle_on_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15384968569,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User uploads any file on Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_uploads_any_file_on_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135972274,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should not see saving of draft even after 10 seconds in GCP",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_should_not_see_saving_of_draft_even_after_seconds_in_GCP()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verification of form data is saved automatically with date and time every 10 seconds when a change in cleaning service narrative",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verification-of-form-data-is-saved-automatically-with-date-and-time-every-10-seconds-when-a-change-in-cleaning-service-narrative",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124797003,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should be able to see the cleaning service narrative in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_should_be_able_to_see_the_cleaning_service_narrative_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10682019244,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User modifies the cleaning service narrative data in the Green Cleaning Policy form form and waits for 10 seconds",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_modifies_the_cleaning_service_narrative_data_in_the_Green_Cleaning_Policy_form_form_and_waits_for_seconds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261684910,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User can see the draft is saved automatically with date and time for cleaning service narrative in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_draft_is_saved_automatically_with_date_and_time_for_cleaning_service_narrative_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Verification of form data is saved automatically with date and time every 10 seconds when a change in Special Circumstances narrative",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verification-of-form-data-is-saved-automatically-with-date-and-time-every-10-seconds-when-a-change-in-special-circumstances-narrative",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112649839,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should be able to see the Special Circumstances narrative in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_should_be_able_to_see_the_Special_Circumstances_narrative_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10558347055,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User modifies the Special Circumstances narrative data in the Green Cleaning Policy form form and waits for 10 seconds",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_modifies_the_Special_Circumstances_narrative_data_in_the_Green_Cleaning_Policy_form_form_and_waits_for_seconds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309150265,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User can see the draft is saved automatically with date and time for Special Circumstances narrative in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_draft_is_saved_automatically_with_date_and_time_for_Special_Circumstances_narrative_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "Verifying the form draft warning message is not retained when the form is saved in GCP",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verifying-the-form-draft-warning-message-is-not-retained-when-the-form-is-saved-in-gcp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105289271,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User can see the Draft is saved automatically with date and time in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_Draft_is_saved_automatically_with_date_and_time_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157625044,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User can see the save button in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_save_button_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10286889965,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User saves the Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_saves_the_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15081985336,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User verifies the form draft warning message is not retained in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_verifies_the_form_draft_warning_message_is_not_retained_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Verification of Clear Draft functionality",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verification-of-clear-draft-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105854510,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User can see the radio button in Green Cleaning Policy form for Certified cleaning service",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_radio_button_in_Green_Cleaning_Policy_form_for_Certified_cleaning_service()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10470454838,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User clicks on the radio button of Certified cleaning service and waits for 10 seconds",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_clicks_on_the_radio_button_of_Certified_cleaning_service_and_waits_for_10_seconds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174487821,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User can see the Clear draft in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_Clear_draft_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5564301888,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User clicks on Clear draft in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_clicks_on_Clear_draft_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209301939,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User can see the draft is cleared in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_draft_is_cleared_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 62,
+        "name": "Verifying draft version is not changed and warning message is displayed with date and time after logout and login",
+        "description": "",
+        "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form;verifying-draft-version-is-not-changed-and-warning-message-is-displayed-with-date-and-time-after-logout-and-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 252829499,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User can see the narrative in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_can_see_the_narrative_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10915748044,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User modifies narrative data in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_modifies_narrative_data_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3580487661,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User will logout from the Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_will_logout_from_the_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34982760775,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User logs in again to Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_logs_in_again_to_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66847352,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User should see the warning message is displayed with date and time at the top of the Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_should_see_the_warning_message_is_displayed_with_date_and_time_at_the_top_of_the_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2480961789,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User verifies draft version is not changed after logout and login in Green Cleaning Policy form",
+            "match": {
+              "location": "AutoSaveAsDraftGCP.user_verifies_draft_version_is_not_changed_after_logout_and_login_in_Green_Cleaning_Policy_form()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the AutoSaveAsDraft functionality in the Green Cleaning Policy Form",
+    "description": "",
+    "id": "verifying-the-autosaveasdraft-functionality-in-the-green-cleaning-policy-form",
+    "keyword": "Feature",
+    "uri": "Include/features/ScoreCard/GreenCleaningPolicy_Form/GCP_AutoSaveAsDraft.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GCP_SmokeTest,Chrome 74.0.3729.169,,,2019-06-06 11:34:48,2019-06-06 11:40:12,5m - 24.013s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_In-house,Chrome 74.0.3729.169,,,2019-06-06 11:34:49,2019-06-06 11:36:59,2m - 9.868s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_In_house),Chrome 74.0.3729.169,,,2019-06-06 11:34:49,2019-06-06 11:36:59,2m - 9.326s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option1,Chrome 74.0.3729.169,,,2019-06-06 11:36:59,2019-06-06 11:37:32,33.652s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadFile_option1),Chrome 74.0.3729.169,,,2019-06-06 11:36:59,2019-06-06 11:37:32,33.420s,PASSED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option1,Chrome 74.0.3729.169,,,2019-06-06 11:37:32,2019-06-06 11:39:15,1m - 43.142s,FAILED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DownloadFiles_option1),Chrome 74.0.3729.169,,,2019-06-06 11:37:33,2019-06-06 11:39:15,1m - 42.846s,FAILED
+,,,,,,,
+Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option1,Chrome 74.0.3729.169,,,2019-06-06 11:39:15,2019-06-06 11:40:11,56.011s,PASSED
+runWithCucumberRunner(greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option1),Chrome 74.0.3729.169,,,2019-06-06 11:39:16,2019-06-06 11:40:11,55.719s,PASSED

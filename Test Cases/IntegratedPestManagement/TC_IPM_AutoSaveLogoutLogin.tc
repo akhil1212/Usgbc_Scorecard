@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_IPM_AutoSaveLogoutLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3accafd-d47c-4248-a283-b3d44fd342f9</testCaseGuid>
+</TestCaseEntity>

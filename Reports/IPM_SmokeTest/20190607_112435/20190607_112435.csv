@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IPM_SmokeTest,Chrome 74.0.3729.169,,2019-06-07 11:24:43,2019-06-07 11:27:25,2m - 41.972s,PASSED
+,,,,,,
+Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft,Chrome 74.0.3729.169,,2019-06-07 11:24:44,2019-06-07 11:27:24,2m - 40.494s,PASSED
+runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft),Chrome 74.0.3729.169,,2019-06-07 11:24:44,2019-06-07 11:27:24,2m - 39.929s,PASSED

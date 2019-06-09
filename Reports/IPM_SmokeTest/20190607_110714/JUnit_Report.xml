@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IPM_SmokeTest" time="174" tests="1" failures="1" errors="0">
+   <testsuite name="IPM_SmokeTest" tests="1" failures="1" errors="0" time="174" timestamp="2019-06-07 11:07:24" hostname="Promantus Inc - G10PROLT021" id="Test Suites/IPM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190607_110714"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190607_110714\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="573efc70a88195b832939175a0bf22f3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft" classname="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-06-07 11:07:25 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft
+
+2019-06-07 11:07:25 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft): Run with 'integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft' was passed
+
+2019-06-07 11:07:27 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-07 11:07:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-07 11:07:29 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 11:07:29 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 11:07:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-07 11:07:30 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 11:07:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-07 11:07:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 11:07:37 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 11:07:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:07:40 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 11:07:40 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 11:07:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 11:07:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 11:07:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 11:07:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 11:07:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 11:07:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 11:07:53 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 11:07:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 11:07:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-07 11:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-07 11:07:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 11:07:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 11:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-07 11:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-07 11:08:02 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-07 11:08:02 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-07 11:08:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-07 11:08:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:08:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-07 11:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMService/Input_IntegratedPMService' is present
+
+2019-06-07 11:08:13 - [MESSAGE][PASSED] - Text 'Checking the text box for auto save as draft with date and time 0877667' is set on object 'Object Repository/IntegratedPestMgmt/Option_IPMService/Input_IntegratedPMService'
+
+2019-06-07 11:08:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:08:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:08:23 AM  Clear draft'
+
+2019-06-07 11:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' is present
+
+2019-06-07 11:08:24 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox'
+
+2019-06-07 11:08:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:08:34 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:08:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:08:33 AM  Clear draft'
+
+2019-06-07 11:08:34 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Jun 2019 11:08:23 AM  Clear draft' and expected text 'Last draft saved on: 07 Jun 2019 11:08:33 AM  Clear draft' are not matched 
+
+2019-06-07 11:08:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_IntegratedPestMngnt/Input_AddFile' successfully
+
+2019-06-07 11:08:35 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_IntegratedPestMngnt/Input_AddFile'
+
+2019-06-07 11:08:35 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_GreenPro/Input_AddFile'
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:08:33 AM  Clear draft'
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Jun 2019 11:08:33 AM  Clear draft' and expected text 'Last draft saved on: 07 Jun 2019 11:08:33 AM  Clear draft' are matched 
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Save_Btn' is present
+
+2019-06-07 11:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Save_Btn' is clicked on
+
+2019-06-07 11:09:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:09:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-06-07 11:09:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_IntegratedPestMngnt/p_IntegratedPestMngnt' successfully
+
+2019-06-07 11:09:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:09:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:09:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 11:09:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_GreenPro/p_AddFile' successfully
+
+2019-06-07 11:09:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:09:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:09:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 11:09:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 11:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is present
+
+2019-06-07 11:09:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' successfully
+
+2019-06-07 11:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-07 11:09:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is present
+
+2019-06-07 11:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is clicked on
+
+2019-06-07 11:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 11:09:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 11:09:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-07 11:09:27 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin" classname="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-07 11:09:27 - [TEST_CASE][FAILED] - Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)
+
+
+2019-06-07 11:09:27 - [TEST_STEP][FAILED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSave_LogoutLogin): runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSave_LogoutLogin) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)
+
+
+2019-06-07 11:09:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' successfully
+
+2019-06-07 11:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' is present
+
+2019-06-07 11:09:29 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox'
+
+2019-06-07 11:09:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:09:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:09:36 AM  Clear draft'
+
+2019-06-07 11:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/div_Signout' is clicked on
+
+2019-06-07 11:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Sign out' is clicked on
+
+2019-06-07 11:09:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:09:42 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-07 11:09:42 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-07 11:09:43 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 11:09:43 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 11:09:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-07 11:09:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-07 11:09:44 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 11:09:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 11:09:49 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 11:09:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:09:52 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 11:09:52 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 11:09:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 11:09:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 11:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 11:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 11:09:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 11:10:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 11:10:09 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 11:10:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 11:10:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-07 11:10:09 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-07 11:10:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 11:10:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 11:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-07 11:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-07 11:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-07 11:10:15 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-07 11:10:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-07 11:10:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' is present
+
+2019-06-07 11:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-06-07 11:10:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 07 Jun 2019 11:09:36 AM  Clear draft'
+
+2019-06-07 11:10:17 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Jun 2019 11:09:36 AM  Clear draft' and expected text 'Last draft saved on: 07 Jun 2019 11:09:36 AM  Clear draft' are matched 
+
+2019-06-07 11:10:17 - [MESSAGE][FAILED] - These following reason:
+ [20]
+
+2019-06-07 11:10:17 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)
+)
+
+2019-06-07 11:10:17 - [MESSAGE][FAILED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSave_LogoutLogin) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-06-07 11:09:27 - [TEST_CASE][FAILED] - Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-07 11:07:24 - [TEST_SUITE][FAILED] - IPM_SmokeTest: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-07 11:07:24 - [TEST_SUITE][FAILED] - IPM_SmokeTest: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveLogoutLogin FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [20]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_IPM_AutoSaveLogoutLogin.run(TC_IPM_AutoSaveLogoutLogin:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559885834931.run(TempTestSuite1559885834931.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,Chrome 74.0.3729.169,,2019-05-27 20:07:49,2019-05-27 20:08:15,26.861s,INCOMPLETE
+,,,,,,
+Test Cases/LightPollutionReduction/TC_LPR_FixtureSheildingForm,Chrome 74.0.3729.169,,2019-05-27 20:07:49,2019-05-27 20:08:15,26.338s,INCOMPLETE
+runWithCucumberRunner(lightPollutionReductionForm.Runner_LPR_FixtureSheildingForm),Chrome 74.0.3729.169,,2019-05-27 20:07:50,2019-05-27 20:08:15,25.717s,INCOMPLETE

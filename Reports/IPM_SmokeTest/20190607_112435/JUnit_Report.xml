@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IPM_SmokeTest" time="161" tests="1" failures="0" errors="0">
+   <testsuite name="IPM_SmokeTest" tests="1" failures="0" errors="0" time="161" timestamp="2019-06-07 11:24:43" hostname="Promantus Inc - G10PROLT021" id="Test Suites/IPM_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190607_112435"/>
+         <property name="logFiles" value="G:\\Sabareesh\\MyGitRepos\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\IPM_SmokeTest\\20190607_112435\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="51bca704ded74aa7fc52fa6833b1668c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft" classname="Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-06-07 11:24:44 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft
+
+2019-06-07 11:24:44 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft): Run with 'integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft' was passed
+
+2019-06-07 11:24:46 - [TEST_CASE][PASSED] - Test Cases/IntegratedPestManagement/TC_NavigateToIPM: Test Cases/IntegratedPestManagement/TC_NavigateToIPM
+
+2019-06-07 11:24:46 - [TEST_STEP][PASSED] - runWithCucumberRunner(integratedPestMgmtForm.Runner_NavigateToIPM): Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-07 11:24:48 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 11:24:49 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 11:24:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-07 11:24:49 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 11:24:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-07 11:24:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 11:24:57 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 11:24:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:24:59 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 11:24:59 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 11:25:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 11:25:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 11:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 11:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 11:25:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 11:25:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' successfully
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is present
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/IntegratedPestMgmt/Navigation/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 11:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-07 11:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-07 11:25:20 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Navigation/div_IPMForm' is present
+
+2019-06-07 11:25:20 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_NavigateToIPM' was passed
+
+2019-06-07 11:25:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IntegratedPestManagement/TC_NavigateToIPM' successfully
+
+2019-06-07 11:25:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:25:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-07 11:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMService/Input_IntegratedPMService' is present
+
+2019-06-07 11:25:31 - [MESSAGE][PASSED] - Text 'Checking the text box for auto save as draft with date and time 0877667' is set on object 'Object Repository/IntegratedPestMgmt/Option_IPMService/Input_IntegratedPMService'
+
+2019-06-07 11:25:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:25:41 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:25:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:25:41 AM  Clear draft'
+
+2019-06-07 11:25:41 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' is present
+
+2019-06-07 11:25:42 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox'
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:25:51 AM  Clear draft'
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Jun 2019 11:25:41 AM  Clear draft' and expected text 'Last draft saved on: 07 Jun 2019 11:25:51 AM  Clear draft' are not matched 
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_IntegratedPestMngnt/Input_AddFile' successfully
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_IntegratedPestMngnt/Input_AddFile'
+
+2019-06-07 11:25:52 - [MESSAGE][PASSED] - File 'G:/Sabareesh/MyGitRepos/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_GreenPro/Input_AddFile'
+
+2019-06-07 11:26:07 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-06-07 11:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:26:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:25:51 AM  Clear draft'
+
+2019-06-07 11:26:07 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Jun 2019 11:25:51 AM  Clear draft' and expected text 'Last draft saved on: 07 Jun 2019 11:25:51 AM  Clear draft' are matched 
+
+2019-06-07 11:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is present
+
+2019-06-07 11:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Save_Btn' is present
+
+2019-06-07 11:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Save_Btn' is clicked on
+
+2019-06-07 11:26:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:26:18 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-06-07 11:26:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_IntegratedPestMngnt/p_IntegratedPestMngnt' successfully
+
+2019-06-07 11:26:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:26:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:26:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 11:26:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMService/AddFile_GreenPro/p_AddFile' successfully
+
+2019-06-07 11:26:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:26:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:26:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 11:26:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 11:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is present
+
+2019-06-07 11:26:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' successfully
+
+2019-06-07 11:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Option_IPMProgram/Input_Option1_RadioBtn' is clicked on
+
+2019-06-07 11:26:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:26:39 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is present
+
+2019-06-07 11:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Clear draft' is clicked on
+
+2019-06-07 11:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 11:26:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 11:26:44 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-07 11:26:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' successfully
+
+2019-06-07 11:26:44 - [MESSAGE][PASSED] - Object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/P_SC_EditorBox' is present
+
+2019-06-07 11:26:45 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/IntegratedPestMgmt/SpecialCircumstances/SC_EditorBox/Body_SC_EditorBox'
+
+2019-06-07 11:26:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 11:26:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/span_Last draft saved on' is: 'Last draft saved on: 07 Jun 2019 11:26:54 AM  Clear draft'
+
+2019-06-07 11:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/div_Signout' is clicked on
+
+2019-06-07 11:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/Autosave/a_Sign out' is clicked on
+
+2019-06-07 11:26:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:26:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-07 11:26:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-06-07 11:26:59 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 11:27:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 11:27:04 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 11:27:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 11:27:07 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 11:27:07 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 11:27:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 11:27:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 11:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 11:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 11:27:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 11:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 11:27:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 11:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 11:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/div_Integrated Pest Management' is clicked on
+
+2019-06-07 11:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/IntegratedPestMgmt/Navigation/a_Form (V01)' is clicked on
+
+2019-06-07 11:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/div_Form drafted and not yet saved' is present
+
+2019-06-07 11:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is present
+
+2019-06-07 11:27:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/LightPollutionReduction/Autosave/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 07 Jun 2019 11:26:54 AM  Clear draft'
+
+2019-06-07 11:27:24 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Jun 2019 11:26:54 AM  Clear draft' and expected text 'Last draft saved on: 07 Jun 2019 11:26:54 AM  Clear draft' are matched 
+
+2019-06-07 11:27:24 - [MESSAGE][PASSED] - Run with 'integratedPestMgmtForm.Runner_IPM_AutoSaveAsDraft' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-07 11:24:43 - [TEST_SUITE][PASSED] - IPM_SmokeTest: Test Cases/IntegratedPestManagement/TC_IPM_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

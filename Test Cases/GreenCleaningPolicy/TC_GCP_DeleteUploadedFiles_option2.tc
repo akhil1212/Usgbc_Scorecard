@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GCP_DeleteUploadedFiles_option2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce9b7b15-3550-441f-ac35-dd44f01c18a2</testCaseGuid>
+</TestCaseEntity>

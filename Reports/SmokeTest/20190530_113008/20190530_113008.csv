@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTest,Chrome 74.0.3729.169,,2019-05-30 11:30:15,2019-05-30 11:34:42,4m - 27.713s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_NegativeCasesLPR,Chrome 74.0.3729.169,,2019-05-30 11:30:15,2019-05-30 11:31:46,1m - 30.802s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_NegativeCasesLPR),Chrome 74.0.3729.169,,2019-05-30 11:30:15,2019-05-30 11:31:46,1m - 30.375s,PASSED
+,,,,,,
+Test Cases/LightPollutionReduction/TC_AutoSaveAsDraftLPR,Chrome 74.0.3729.169,,2019-05-30 11:31:46,2019-05-30 11:34:42,2m - 55.744s,PASSED
+runWithCucumberRunner(lightPollutionReductionForm.Runner_AutoSaveAsDraftLPR),Chrome 74.0.3729.169,,2019-05-30 11:31:46,2019-05-30 11:34:42,2m - 55.505s,PASSED

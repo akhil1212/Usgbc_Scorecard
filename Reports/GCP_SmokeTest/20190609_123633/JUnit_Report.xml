@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GCP_SmokeTest" time="195" tests="1" failures="0" errors="0">
+   <testsuite name="GCP_SmokeTest" tests="1" failures="0" errors="0" time="195" timestamp="2019-06-09 12:36:55" hostname="promantus inc - G10PROLT025" id="Test Suites/GCP_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Usgbc_Scorecard\\Usgbc_Scorecard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190609_123633"/>
+         <property name="logFiles" value="F:\\Usgbc_Scorecard\\Usgbc_Scorecard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190609_123633\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="26ddb62c689c3fe856e6e48fcf6c100a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft" classname="Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft" status="PASSED">
+         <system-out><![CDATA[2019-06-09 12:36:55 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft: Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft
+
+2019-06-09 12:36:56 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_AutoSaveAsDraftGCP): Run with 'greenCleaningPolicyForm.Runner_AutoSaveAsDraftGCP' was passed
+
+2019-06-09 12:36:59 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_NavigateToGCP: Test Cases/GreenCleaningPolicy/TC_NavigateToGCP
+
+2019-06-09 12:36:59 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_NavigateToGCP): Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-09 12:37:02 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-09 12:37:02 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-09 12:37:03 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-09 12:37:03 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-09 12:37:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-09 12:37:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-09 12:37:13 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-09 12:37:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:37:16 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-09 12:37:16 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-09 12:37:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-09 12:37:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-09 12:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-09 12:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-09 12:37:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-09 12:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-09 12:37:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' successfully
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is present
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/divval' is: 'ATTEMPTED'
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-09 12:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-09 12:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-09 12:37:37 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy_Credit library' is present
+
+2019-06-09 12:37:37 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-09 12:37:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaningPolicy/TC_NavigateToGCP' successfully
+
+2019-06-09 12:37:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:37:47 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-09 12:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/input_Option1_Radiobtn' is clicked on
+
+2019-06-09 12:37:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:37:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-06-09 12:37:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/input_UploadGreenCleaningPlcy' successfully
+
+2019-06-09 12:37:58 - [MESSAGE][PASSED] - File 'F:/Usgbc_Scorecard/Usgbc_Scorecard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/input_UploadGreenCleaningPlcy'
+
+2019-06-09 12:37:58 - [MESSAGE][PASSED] - File 'F:/Usgbc_Scorecard/Usgbc_Scorecard/Usgbc_LeedOnline_ScoreCard/Include/TestData/MultipleFileDiffExt/ZZ.pdf' sent to object: 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/input_UploadAdditionalDoc_SC'
+
+2019-06-09 12:38:13 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-06-09 12:38:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-09 12:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/p_CleaningService' is present
+
+2019-06-09 12:38:14 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/GreenCleaningPolicy/CleaningService_EditorBox/body_CS_EditorBox'
+
+2019-06-09 12:38:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' is present
+
+2019-06-09 12:38:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' is: 'Last draft saved on: 09 Jun 2019 12:38:15 PM  Clear draft'
+
+2019-06-09 12:38:24 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 09 Jun 2019 12:38:15 PM  Clear draft' are not matched 
+
+2019-06-09 12:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/AddFile_UploadAddtionalDoc_SC/p_Upload any additional documentation that supports' is present
+
+2019-06-09 12:38:25 - [MESSAGE][PASSED] - Text 'Test Data for Narrative' is set on object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-06-09 12:38:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' is present
+
+2019-06-09 12:38:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' is: 'Last draft saved on: 09 Jun 2019 12:38:25 PM  Clear draft'
+
+2019-06-09 12:38:35 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 09 Jun 2019 12:38:25 PM  Clear draft' and expected text 'Last draft saved on: 09 Jun 2019 12:38:15 PM  Clear draft' are not matched 
+
+2019-06-09 12:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' is present
+
+2019-06-09 12:38:35 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/button_Save' is present
+
+2019-06-09 12:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/button_Save' is clicked on
+
+2019-06-09 12:38:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:38:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/div_Form drafted and not yet saved' located by 'By.xpath: //div[@id='draftDataWarning']' is not present after '2' second(s)
+
+2019-06-09 12:38:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option1_GreenCleanPlcy/AddFile_UploadGreenCleaningPlcy_Option1/p_Upload the Green Cleaning Policy' successfully
+
+2019-06-09 12:38:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-09 12:38:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-09 12:38:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-09 12:38:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' successfully
+
+2019-06-09 12:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-09 12:38:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-09 12:38:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-09 12:38:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-09 12:38:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-09 12:38:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-09 12:39:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-09 12:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is present
+
+2019-06-09 12:39:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' successfully
+
+2019-06-09 12:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is clicked on
+
+2019-06-09 12:39:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/a_Clear draft' is present
+
+2019-06-09 12:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Clear draft' is clicked on
+
+2019-06-09 12:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/button_Yes' is clicked on
+
+2019-06-09 12:39:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-09 12:39:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' located by 'By.xpath: //*[@id="credit-form"]/div[5]/div/span/span' is not present after '2' second(s)
+
+2019-06-09 12:39:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' successfully
+
+2019-06-09 12:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/p_Describe the circumstances limiting the project teams' is present
+
+2019-06-09 12:39:18 - [MESSAGE][PASSED] - Text 'Testing for Logout and Login' is set on object 'Object Repository/GreenCleaningPolicy/SpecialCircumstances/SC_EditorBox/body_SC_EditorBox'
+
+2019-06-09 12:39:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-09 12:39:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/span_Last draft saved on' is: 'Last draft saved on: 09 Jun 2019 12:39:25 PM  Clear draft'
+
+2019-06-09 12:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Signout' is clicked on
+
+2019-06-09 12:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Sign out' is clicked on
+
+2019-06-09 12:39:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:39:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-09 12:39:33 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-09 12:39:33 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-09 12:39:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-09 12:39:41 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-09 12:39:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:39:43 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-09 12:39:43 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-09 12:39:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-09 12:39:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-09 12:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-09 12:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-09 12:39:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-09 12:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-09 12:39:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-09 12:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-09 12:39:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-09 12:40:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-09 12:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Form drafted and not yet saved' is present
+
+2019-06-09 12:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Last draft saved dateTime_warningDiv' is present
+
+2019-06-09 12:40:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/Last draft saved dateTime_warningDiv' is: 'Last draft saved on: 09 Jun 2019 12:39:25 PM  Clear draft'
+
+2019-06-09 12:40:07 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 09 Jun 2019 12:39:25 PM  Clear draft' and expected text 'Last draft saved on: 09 Jun 2019 12:39:25 PM  Clear draft' are matched 
+
+2019-06-09 12:40:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-09 12:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Clear draft' is clicked on
+
+2019-06-09 12:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/button_Yes' is clicked on
+
+2019-06-09 12:40:10 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_AutoSaveAsDraftGCP' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-09 12:36:55 - [TEST_SUITE][PASSED] - GCP_SmokeTest: Test Cases/GreenCleaningPolicy/TC_GCP_AutoSaveAsDraft]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

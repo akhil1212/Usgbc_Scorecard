@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GCP_SmokeTest" time="750" tests="3" failures="1" errors="0">
+   <testsuite name="GCP_SmokeTest" tests="3" failures="1" errors="0" time="750" timestamp="2019-06-07 15:17:15" hostname="promantus inc - G10PROLT025" id="Test Suites/GCP_SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190607_151657"/>
+         <property name="logFiles" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190607_151657\\execution0.log"/>
+         <property name="attachments" value="H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190607_151657\\1559901178380.png"/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="72003ef308dfb81e9431aff533981700"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService" classname="Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)
+"/>
+         <system-out><![CDATA[2019-06-07 15:17:15 - [TEST_CASE][FAILED] - Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService: Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)
+
+
+2019-06-07 15:17:16 - [TEST_STEP][FAILED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_CertifiedCleaningService): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)
+)
+
+2019-06-07 15:17:18 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_NavigateToGCP: Test Cases/GreenCleaningPolicy/TC_NavigateToGCP
+
+2019-06-07 15:17:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_NavigateToGCP): Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:17:19 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 15:17:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:17:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-07 15:17:20 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 15:17:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-06-07 15:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 15:17:32 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 15:17:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:17:35 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 15:17:35 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 15:17:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:17:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 15:17:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 15:17:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 15:17:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 15:17:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 15:17:52 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:17:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 15:17:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' successfully
+
+2019-06-07 15:17:52 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is present
+
+2019-06-07 15:17:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:17:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/divval' is: 'ATTEMPTED'
+
+2019-06-07 15:17:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-07 15:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-07 15:18:01 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy_Credit library' is present
+
+2019-06-07 15:18:01 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:18:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaningPolicy/TC_NavigateToGCP' successfully
+
+2019-06-07 15:18:02 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is present
+
+2019-06-07 15:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is clicked on
+
+2019-06-07 15:18:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 15:18:07 - [MESSAGE][PASSED] - Text 'Option 2. Certified cleaning service' is present on page 
+
+2019-06-07 15:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is present
+
+2019-06-07 15:18:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' successfully
+
+2019-06-07 15:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/Button_UploadCleaningContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-07 15:18:07 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/input_UploadCleaningContract'
+
+2019-06-07 15:18:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:18:51 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/Button_UploadCleaningContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-07 15:18:52 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/input_UploadCleaningContract'
+
+2019-06-07 15:18:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/Button_UploadCleaningContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-07 15:20:15 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/input_UploadCleaningContract'
+
+2019-06-07 15:20:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:20:16 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/TextBox_Option2/input_TextBox_GreenCleaningService' is present
+
+2019-06-07 15:20:16 - [MESSAGE][PASSED] - Text '1141' is set on object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/TextBox_Option2/input_TextBox_GreenCleaningService'
+
+2019-06-07 15:20:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:20:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/TextBox_Option2/input_TextBox_GreenCleaningService' is: '1141'
+
+2019-06-07 15:20:20 - [MESSAGE][PASSED] - Actual text '1141' and expected text '1141' are matched 
+
+2019-06-07 15:20:20 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is present
+
+2019-06-07 15:20:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' successfully
+
+2019-06-07 15:20:20 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/Button_UploadInfoShowingContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-07 15:20:20 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SampleGIFImage_350kbmb.gif' sent to object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/input_UploadInfoShowingContract'
+
+2019-06-07 15:20:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/Button_UploadInfoShowingContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-07 15:21:39 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\SamplePPTFile_1000kb.ppt' sent to object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/input_UploadInfoShowingContract'
+
+2019-06-07 15:21:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:22:44 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/Button_UploadInfoShowingContract' has attribute 'class' with value 'tiny ui button'
+
+2019-06-07 15:22:44 - [MESSAGE][PASSED] - File 'H:\Git Projects\Usgbc_LeedOnline_ScoreCard\Usgbc_LeedOnline_ScoreCard\Include\TestData\MultipleFileDiffExt\ZZ.pdf' sent to object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/input_UploadInfoShowingContract'
+
+2019-06-07 15:22:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:22:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:22:56 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/button_Save' is visible
+
+2019-06-07 15:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/button_Save' is clicked on
+
+2019-06-07 15:22:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:22:58 - [MESSAGE][FAILED] - Text 'Form data saved successfully.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Form data saved successfully.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at greenCleaningPolicyForm.GreenCleaning_Form.user_should_see_Form_data_saved_successfully_message_in_GCP(GreenCleaning_Form.groovy:273)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)
+)
+
+2019-06-07 15:22:59 - [MESSAGE][FAILED] - Unable to verify text 'Form data saved successfully.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Form data saved successfully.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at greenCleaningPolicyForm.GreenCleaning_Form.user_should_see_Form_data_saved_successfully_message_in_GCP(GreenCleaning_Form.groovy:273)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Form data saved successfully.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 68 more
+)
+[[ATTACHMENT|H:\\Git Projects\\Usgbc_LeedOnline_ScoreCard\\Usgbc_LeedOnline_ScoreCard\\Reports\\GCP_SmokeTest\\20190607_151657\\1559901178380.png]]
+
+2019-06-07 15:22:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/icon_pdf' successfully
+
+2019-06-07 15:22:59 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/icon_pdf' is present
+
+2019-06-07 15:23:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 15:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/icon_pdf' is clicked on
+
+2019-06-07 15:23:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:23:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 15:23:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' successfully
+
+2019-06-07 15:23:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:23:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/TextBox_Option2/input_TextBox_GreenCleaningService' is: '1141'
+
+2019-06-07 15:23:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:23:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 15:23:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' successfully
+
+2019-06-07 15:23:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:23:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:23:36 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-06-07 15:23:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:23:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_MarkReadyForReview' is clicked on
+
+2019-06-07 15:23:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 15:23:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-07 15:23:43 - [MESSAGE][FAILED] - These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+
+2019-06-07 15:23:43 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)
+)]]></system-out>
+         <system-err><![CDATA[2019-06-07 15:17:15 - [TEST_CASE][FAILED] - Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService: Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2" classname="Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2" status="PASSED">
+         <system-out><![CDATA[2019-06-07 15:23:43 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2: Test Cases/GreenCleaningPolicy/TC_GCP_VerifyUploadedFile_option2
+
+2019-06-07 15:23:44 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_VerifyUploadedFile_option2): Run with 'greenCleaningPolicyForm.Runner_VerifyUploadedFile_option2' was passed
+
+2019-06-07 15:23:44 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_NavigateToGCP: Test Cases/GreenCleaningPolicy/TC_NavigateToGCP
+
+2019-06-07 15:23:44 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_NavigateToGCP): Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:23:45 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 15:23:45 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:23:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-07 15:23:46 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-07 15:23:46 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 15:23:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 15:24:03 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 15:24:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:24:06 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 15:24:06 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 15:24:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:24:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 15:24:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 15:24:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 15:24:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 15:24:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' successfully
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is present
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'READY FOR REVIEW'
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/divval' is: 'READY FOR REVIEW'
+
+2019-06-07 15:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_MarkReadyForReview' is clicked on
+
+2019-06-07 15:24:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-06-07 15:24:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-07 15:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-07 15:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy_Credit library' is present
+
+2019-06-07 15:24:52 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:24:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaningPolicy/TC_NavigateToGCP' successfully
+
+2019-06-07 15:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is clicked on
+
+2019-06-07 15:24:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:24:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' successfully
+
+2019-06-07 15:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' is present
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-07 15:24:55 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' successfully
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' is present
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif is equal to SampleGIFImage_350kbmb.gif
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-07 15:24:56 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:24:57 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt is equal to SamplePPTFile_1000kb.ppt
+
+2019-06-07 15:24:57 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-07 15:24:57 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:24:57 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-06-07 15:24:57 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-07 15:24:57 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_VerifyUploadedFile_option2' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option2" classname="Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option2" status="PASSED">
+         <system-out><![CDATA[2019-06-07 15:24:57 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option2: Test Cases/GreenCleaningPolicy/TC_GCP_DownloadFiles_option2
+
+2019-06-07 15:24:57 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_DownloadFiles_option2): Run with 'greenCleaningPolicyForm.Runner_DownloadFiles_option2' was passed
+
+2019-06-07 15:24:57 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_NavigateToGCP: Test Cases/GreenCleaningPolicy/TC_NavigateToGCP
+
+2019-06-07 15:24:57 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_NavigateToGCP): Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:24:58 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 15:24:58 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:24:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-07 15:24:59 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-07 15:24:59 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 15:25:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 15:25:09 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 15:25:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:25:11 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 15:25:11 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 15:25:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:25:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 15:25:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 15:25:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 15:25:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 15:25:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' successfully
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is present
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/divval' is: 'ATTEMPTED'
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-07 15:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-07 15:25:35 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy_Credit library' is present
+
+2019-06-07 15:25:35 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:25:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaningPolicy/TC_NavigateToGCP' successfully
+
+2019-06-07 15:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is clicked on
+
+2019-06-07 15:25:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:25:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' successfully
+
+2019-06-07 15:25:37 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' is present
+
+2019-06-07 15:25:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' successfully
+
+2019-06-07 15:25:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:25:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:25:40 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:25:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:26:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:26:04 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:26:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:26:19 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:26:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:26:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:26:43 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:26:48 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:26:52 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' is hovered
+
+2019-06-07 15:26:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:26:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:26:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:27:00 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-07 15:27:00 - [MESSAGE][PASSED] - 
+
+2019-06-07 15:27:00 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-07 15:27:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:27:03 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-07 15:27:03 - [MESSAGE][PASSED] - 
+
+2019-06-07 15:27:03 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-07 15:27:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:27:06 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-07 15:27:06 - [MESSAGE][PASSED] - 
+
+2019-06-07 15:27:06 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-07 15:27:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' successfully
+
+2019-06-07 15:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' is present
+
+2019-06-07 15:27:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' successfully
+
+2019-06-07 15:27:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:27:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:27:09 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:27:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:27:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:27:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:27:24 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:27:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:27:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:27:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:27:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:27:48 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:27:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-06-07 15:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:28:02 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-06-07 15:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:28:07 - [MESSAGE][PASSED] - Text of object '' is: 'SamplePPTFile_1000kb.ppt'
+
+2019-06-07 15:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:28:11 - [MESSAGE][PASSED] - Text of object '' is: 'SampleGIFImage_350kbmb.gif'
+
+2019-06-07 15:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' is hovered
+
+2019-06-07 15:28:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:28:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:28:19 - [MESSAGE][PASSED] - SampleGIFImage_350kbmb.gif exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-07 15:28:19 - [MESSAGE][PASSED] - 
+
+2019-06-07 15:28:19 - [MESSAGE][PASSED] - Actual text 'SampleGIFImage_350kbmb.gif' and expected text 'SampleGIFImage_350kbmb.gif' are matched 
+
+2019-06-07 15:28:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:28:23 - [MESSAGE][PASSED] - SamplePPTFile_1000kb.ppt exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-07 15:28:23 - [MESSAGE][PASSED] - 
+
+2019-06-07 15:28:23 - [MESSAGE][PASSED] - Actual text 'SamplePPTFile_1000kb.ppt' and expected text 'SamplePPTFile_1000kb.ppt' are matched 
+
+2019-06-07 15:28:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:28:26 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/Git Projects/Usgbc_LeedOnline_ScoreCard/Usgbc_LeedOnline_ScoreCard/Include/TestData/DownloadedFiles and was deleted
+
+2019-06-07 15:28:26 - [MESSAGE][PASSED] - 
+
+2019-06-07 15:28:26 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-06-07 15:28:26 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_DownloadFiles_option2' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option2" classname="Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option2" status="PASSED">
+         <system-out><![CDATA[2019-06-07 15:28:26 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option2: Test Cases/GreenCleaningPolicy/TC_GCP_DeleteUploadedFiles_option2
+
+2019-06-07 15:28:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option2): Run with 'greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option2' was passed
+
+2019-06-07 15:28:26 - [TEST_CASE][PASSED] - Test Cases/GreenCleaningPolicy/TC_NavigateToGCP: Test Cases/GreenCleaningPolicy/TC_NavigateToGCP
+
+2019-06-07 15:28:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(greenCleaningPolicyForm.Runner_NavigateToGCP): Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:28:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Login: Test Cases/Login/TC_Login
+
+2019-06-07 15:28:27 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.Runner_Login): Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:28:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-06-07 15:28:28 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-06-07 15:28:28 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080]']
+
+2019-06-07 15:28:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-06-07 15:28:33 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-06-07 15:28:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:36 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Login/input_username'
+
+2019-06-07 15:28:36 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Login/input_password'
+
+2019-06-07 15:28:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-06-07 15:28:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Login/span_End User License Agreement' successfully
+
+2019-06-07 15:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is visible
+
+2019-06-07 15:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/span_End User License Agreement' is checked
+
+2019-06-07 15:28:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In' is clicked on
+
+2019-06-07 15:28:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Credits' is clicked on
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Run with 'common.Runner_Login' was passed
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_Login' successfully
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' successfully
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is present
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/divval' is: 'ATTEMPTED'
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/GreenCleaningPolicy/h3_Status' is: 'ATTEMPTED'
+
+2019-06-07 15:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy' is clicked on
+
+2019-06-07 15:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/a_Form (V01)' is clicked on
+
+2019-06-07 15:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/div_Green Cleaning Policy_Credit library' is present
+
+2019-06-07 15:28:57 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_NavigateToGCP' was passed
+
+2019-06-07 15:28:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GreenCleaningPolicy/TC_NavigateToGCP' successfully
+
+2019-06-07 15:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/input_Option 2_RadioBtn' is clicked on
+
+2019-06-07 15:28:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:28:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' successfully
+
+2019-06-07 15:28:59 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' is present
+
+2019-06-07 15:29:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadCleaningContract_Option2/p_Upload the Cleaning Contract' successfully
+
+2019-06-07 15:29:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_CleaningContract' located by 'By.xpath: //*[@id="greenCleaningPolicyDocs_files" or @id="contractDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-07 15:29:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' successfully
+
+2019-06-07 15:29:22 - [MESSAGE][PASSED] - Object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' is present
+
+2019-06-07 15:29:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/AddFile_UploadInfoShowingContract_Option2/p_Upload the information showing the contractors' successfully
+
+2019-06-07 15:29:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-06-07 15:29:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-06-07 15:29:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LightPollutionReduction/FixtureShielding/button_Yes' is clicked on
+
+2019-06-07 15:29:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-06-07 15:29:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GreenCleaningPolicy/Option2_CertifiedCleanService/Table_UploadInfoShowingContract' located by 'By.xpath: //*[@id="contractorCertDocs_files"]/table' is not present after '30' second(s)
+
+2019-06-07 15:29:45 - [MESSAGE][PASSED] - Run with 'greenCleaningPolicyForm.Runner_DeleteUploadedFiles_option2' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-06-07 15:17:15 - [TEST_SUITE][FAILED] - GCP_SmokeTest: Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-06-07 15:17:15 - [TEST_SUITE][FAILED] - GCP_SmokeTest: Test Cases/GreenCleaningPolicy/TC_GCP_CertifiedCleaningService FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to verify text 'Form data saved successfully.' is present ]
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_GCP_CertifiedCleaningService.run(TC_GCP_CertifiedCleaningService:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559900826458.run(TempTestSuite1559900826458.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
